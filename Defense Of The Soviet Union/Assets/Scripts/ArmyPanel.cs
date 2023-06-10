@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SoldeirsPanel : MonoBehaviour
+public class ArmyPanel : MonoBehaviour
 {
     [SerializeField] private GameObject _armyObject;
 
