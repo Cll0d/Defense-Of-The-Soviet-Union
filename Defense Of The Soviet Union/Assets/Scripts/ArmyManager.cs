@@ -7,13 +7,9 @@ public class ArmyManager : Loader<ArmyManager>
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButton(0))
         {
-            Create();
-            //CreateObjToKursorPos();
-            //Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            //RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector3.zero);
-            //CreatUnitArmy(hit);
+            Create2();
         }
     }
 
@@ -22,49 +18,19 @@ public class ArmyManager : Loader<ArmyManager>
         armyBtnPressed = armySelcted;
         Debug.Log("Pressed" + armyBtnPressed.gameObject);
     }
-
-    private void CreatUnitArmy(RaycastHit2D hit)
+    private void Create2()
     {
         if (!EventSystem.current.IsPointerOverGameObject() && armyBtnPressed != null)
         {
             GameObject unitArmy = Instantiate(armyBtnPressed.ArmyObject);
-            unitArmy.transform.position = hit.transform.position;
-        }
-    }
-    private void CreateObjToKursorPos()
-    {
-        if (!EventSystem.current.IsPointerOverGameObject() && armyBtnPressed != null)
-        {
-            GameObject unitArmy = Instantiate(armyBtnPressed.ArmyObject);
-            var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            var pos = ray.origin + ray.direction * 10.0f;
-            unitArmy.transform.position = pos;
-        }
-    }
-    private void Create()
-    {
-        if (!EventSystem.current.IsPointerOverGameObject() && armyBtnPressed != null)
-        {
-            GameObject unitArmy = Instantiate(armyBtnPressed.ArmyObject);
-            Vector3 mousePos = Input.mousePosition;
-            mousePos.z = 60;
-            Vector3 mouseGlob = Camera.main.ScreenToWorldPoint(mousePos);
-            unitArmy.transform.position = mouseGlob;
-        }
-    }
-    public Transform objectToCreate; // тот объект, который хотите создавать
-
-    void cer()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Vector3 mouse = Input.mousePosition;//узнаём координаты мыши
-            mouse.z = 10; //  на каком расстоянии от камеры по z будет находиться объект,
-                          //   это для того, чтобы объект не появлялся прямо там, где позиция камеры
-
-            Vector3 mouseGlob = Camera.main.ScreenToWorldPoint(mouse); // находим мышь в 3d пространстве
-
-            Instantiate(objectToCreate, mouseGlob, Quaternion.identity); // создаём объект в нужном позиции
+            Debug.DrawRay(transform.position, transform.forward, Color.yellow);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            Debug.Log("работант");
+            if (Physics.Raycast(ray, out hit))
+            {
+                unitArmy.transform.position = hit.point;
+            }
         }
     }
 }
