@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Camers : MonoBehaviour
 {
-    private Camera MainCamera;
+    private Camera _mainCamera;
     public Camera MinorCamera;
 
     void Start()
     {
-        MainCamera = GetComponent<Camera>();
-        MainCamera = Camera.main;
+        _mainCamera = GetComponent<Camera>();
+        _mainCamera = Camera.main;
     }
 
 
