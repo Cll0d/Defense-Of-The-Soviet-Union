@@ -20,8 +20,6 @@ public class CardHolderManager : MonoBehaviour
             CreateCard(i);
         }
     }
-
-
     private void CreateCard(int i)
     {
         var card = Instantiate(_card, _cardHolderPosition);

@@ -25,11 +25,11 @@ public class ArmyPlace : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoin
                 Vector3 worldPosition = ray.GetPoint(pos);
                 float x = worldPosition.x;
                 float z = worldPosition.z;
-                if (x < 9 || x > 39)
+                if (x < 11 || x > 37)
                 {
                     _isBuild = false;
                 }
-                else if (z < -30 || z > 32)
+                else if (z < -28 || z > 30)
                 {
                     _isBuild = false;
                 }

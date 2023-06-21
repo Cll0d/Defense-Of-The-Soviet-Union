@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Army : MonoBehaviour
@@ -28,7 +26,7 @@ public class Army : MonoBehaviour
         }    
     }
 
-    bool CanShoot()
+    private bool CanShoot()
     {
         if (_currentReoload <= 0)
         {
@@ -37,31 +35,33 @@ public class Army : MonoBehaviour
         return false;
     }
 
-    void SearchTarget()
+    private void SearchTarget()
     {
         Transform nearestEnemy = null;
         float nearestEnemyDistance = Mathf.Infinity;
+        Enemy enemy1 = GetComponent<Enemy>();
 
-        foreach(GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
+        foreach (GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
         {
             float _currentDistance = Vector2.Distance(transform.position, enemy.transform.position);
 
-            if(_currentDistance > nearestEnemyDistance && _currentDistance <= _weaponRange)
+            if (_currentDistance < nearestEnemyDistance && _currentDistance <= _weaponRange)
             {
                 nearestEnemy = enemy.transform;
                 nearestEnemyDistance = _currentDistance;
             }
         }
-
         if (nearestEnemy != null)
         {
             Shoot(nearestEnemy);
         }
     }
 
-    void Shoot(Transform enemy)
+    private void Shoot(Transform enemy)
     {
+
         _currentReoload = _reoload;
         Debug.Log("Shoot");
     }
+
 }

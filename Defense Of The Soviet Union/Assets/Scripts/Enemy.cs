@@ -9,4 +9,14 @@ public class Enemy : MonoBehaviour
     [SerializeField] float Damage;
     [SerializeField] private float _speedRun;
     [SerializeField] private int _coinForKill;
+
+    private void Update()
+    {
+        
+    }
+
+    public void TakeDamage(float damage)
+    {
+        Health = (damage - Armor);
+    }
 }
