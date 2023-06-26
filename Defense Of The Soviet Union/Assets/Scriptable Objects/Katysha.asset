@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Katysha
   m_EditorClassIdentifier: 
   Icon: {fileID: 21300000, guid: dbf00f03277cf5745a9c7521ed8d5b16, type: 3}
-  Prefab: {fileID: 3461901286534356170, guid: 937a870981a44a9498f1eae90414d346, type: 3}
+  Prefab: {fileID: 3316640541385982049, guid: b12e44c9ade0afc4992a17dfc7e55ab5, type: 3}
   Cost: 1500

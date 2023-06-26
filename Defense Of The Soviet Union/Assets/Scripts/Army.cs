@@ -59,9 +59,7 @@ public class Army : MonoBehaviour
 
     private void Shoot(Transform enemy)
     {
-
         _currentReoload = _reoload;
-        Debug.Log("Shoot");
     }
 
 }

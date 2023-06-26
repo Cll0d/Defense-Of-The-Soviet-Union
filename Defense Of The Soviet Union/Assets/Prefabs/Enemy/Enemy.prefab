@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3107641463097837569}
   - component: {fileID: 9211109223656579556}
+  - component: {fileID: 870150171213510091}
+  - component: {fileID: 2552898964079671634}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -31,7 +33,7 @@ Transform:
   m_Children:
   - {fileID: 3388151756329643351}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9211109223656579556
 MonoBehaviour:
@@ -45,6 +47,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8e9495f95cd169458a687976437d202, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &870150171213510091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6077742196317146831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f60db47ea814d04490bf6cfbc39c18f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 1000
+  Armor: 10
+  Damage: 5
+  _speedRun: 10
+  _coinForKill: 20
+--- !u!135 &2552898964079671634
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6077742196317146831}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.52
+  m_Center: {x: 0, y: 1.47, z: 0}
 --- !u!1 &6687794697151149513
 GameObject:
   m_ObjectHideFlags: 0
