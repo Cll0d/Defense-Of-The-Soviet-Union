@@ -19,13 +19,11 @@ public class Army : MonoBehaviour
         {
             SearchTarget();
         }
-
         if(_currentReoload > 0)
         {
             _currentReoload -= Time.deltaTime;
         }    
     }
-
     private bool CanShoot()
     {
         if (_currentReoload <= 0)
@@ -56,10 +54,8 @@ public class Army : MonoBehaviour
             Shoot(nearestEnemy);
         }
     }
-
     private void Shoot(Transform enemy)
     {
         _currentReoload = _reoload;
     }
-
 }
