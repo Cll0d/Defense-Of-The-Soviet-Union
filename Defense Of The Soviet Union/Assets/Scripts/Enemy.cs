@@ -8,16 +8,21 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float _speedRun;
     [SerializeField] private int _coinForKill;
 
+    public Transform RunPoint;//Куда зомби бегут
+    
+
     private void Update()
     {
         if(_health <= 0)
         {
             Die();
         }
+        
+        transform.position = Vector3.MoveTowards(transform.position, RunPoint.position, _speedRun * Time.deltaTime);
     }
     public void TakeDamage(float damage)
     {
-        _health = (damage - _armor);
+        _health -= (damage - _armor);
     }
     private void Die()
     {

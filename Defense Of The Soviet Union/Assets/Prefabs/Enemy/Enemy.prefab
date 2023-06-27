@@ -59,11 +59,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f60db47ea814d04490bf6cfbc39c18f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 1000
+  _health: 100
   _armor: 10
   _damage: 10
   _speedRun: 10
   _coinForKill: 20
+  RunPoint: {fileID: 0}
 --- !u!135 &2552898964079671634
 SphereCollider:
   m_ObjectHideFlags: 0
