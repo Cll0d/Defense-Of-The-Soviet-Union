@@ -2,9 +2,7 @@ using UnityEngine;
 
 public class Army : MonoBehaviour
 {
-    [SerializeField] float Health;
-    [SerializeField] float Armor;
-    [SerializeField] float Damage;
+    [SerializeField] float _damage;
     [SerializeField] private float _fireRate;
     [SerializeField] private float _reoload;
     [SerializeField] private float _currentReoload;
@@ -41,7 +39,7 @@ public class Army : MonoBehaviour
 
         foreach (GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
         {
-            float _currentDistance = Vector2.Distance(transform.position, enemy.transform.position);
+            float _currentDistance = Vector3.Distance(transform.position, enemy.transform.position);
 
             if (_currentDistance < nearestEnemyDistance && _currentDistance <= _weaponRange)
             {

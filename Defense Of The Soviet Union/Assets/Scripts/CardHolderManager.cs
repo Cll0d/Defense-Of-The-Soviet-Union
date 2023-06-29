@@ -1,4 +1,5 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,6 +11,8 @@ public class CardHolderManager : MonoBehaviour
     [SerializeField] private GameObject[] _plantedCards;
     private int _cost;
     private Sprite _icon;
+    GameObject Icon;
+    
 
     private void Start()
     {
@@ -18,6 +21,7 @@ public class CardHolderManager : MonoBehaviour
         for (int i = 0; i < _cardSO.Length; i++)
         {
             CreateCard(i);
+           
         }
     }
     private void CreateCard(int i)
@@ -35,4 +39,5 @@ public class CardHolderManager : MonoBehaviour
         card.GetComponentInChildren<Image>().sprite = _icon;
         card.GetComponentInChildren<TMP_Text>().text = _cost.ToString();
     }
+
 }

@@ -33,7 +33,7 @@ Transform:
   - {fileID: 5933998021981215514}
   - {fileID: 8759233530672482457}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7637340609547912761
 MonoBehaviour:
@@ -65,10 +65,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rangeRay: 100
   _damage: 15
-  _health: 25
-  _armor: 10
-  _reload: 0
-  _fullReload: 0
+  _reload: 2
+  _fullReload: 1
   _rotSpeed: 20
   _transform: {fileID: 7750781547789927678}
 --- !u!1 &581772755810274043
@@ -535,12 +533,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: fa8c460b2b817a74faca591cb93adfa2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8389899
+      value: 0.8383
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fa8c460b2b817a74faca591cb93adfa2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.518475
+      value: -0.4777
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fa8c460b2b817a74faca591cb93adfa2,
         type: 3}
