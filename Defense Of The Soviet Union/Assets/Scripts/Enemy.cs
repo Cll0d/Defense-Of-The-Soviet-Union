@@ -17,8 +17,7 @@ public class Enemy : MonoBehaviour
         {
             Die();
         }
-        
-        transform.position = Vector3.MoveTowards(transform.position, RunPoint.position, _speedRun * Time.deltaTime);
+        Run();
     }
     public void TakeDamage(float damage)
     {
@@ -27,5 +26,13 @@ public class Enemy : MonoBehaviour
     private void Die()
     {
         Destroy(gameObject);
+    }
+    private void Run()
+    {
+        transform.position = Vector3.MoveTowards(transform.position, RunPoint.position, _speedRun * Time.deltaTime);
+    }
+    private void Attack()
+    {
+
     }
 }

@@ -7,28 +7,17 @@ public class Buildings : MonoBehaviour
     [SerializeField] private Renderer _renderer;
     [SerializeField] private Renderer _renderer1;
     [SerializeField] private Renderer _renderer2;
+    public bool _isTriiger;
 
-    public void SetTransparent(bool available)
+    private void OnTriggerEnter(Collider other)
     {
-        if (available)
-        {
-            _renderer.material.color = Color.green;
-            _renderer1.material.color = Color.green;
-            _renderer2.material.color = Color.green;
-        }
-        else
-        {
-            _renderer.material.color = Color.red;
-            _renderer1.material.color = Color.red;
-            _renderer2.material.color = Color.red;
-        }
+        Debug.Log("Вход");
+        _isTriiger = false;
     }
-
-    public void ResetColor()
+    private void OnTriggerExit(Collider other)
     {
-        _renderer.material.color = Color.white;
-        _renderer1.material.color = Color.white;
-        _renderer2.material.color = Color.white;
+        Debug.Log("Выход");
+        _isTriiger = true;
     }
     public Vector2Int Size
     {
@@ -46,9 +35,5 @@ public class Buildings : MonoBehaviour
                 Gizmos.DrawCube(transform.position + new Vector3(x, 0, y), new Vector3(1, 0.1f, 1));
             }
         }
-    }
-    private void Update()
-    {
-
     }
 }

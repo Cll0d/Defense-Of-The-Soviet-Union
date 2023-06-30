@@ -15,6 +15,7 @@ public class ArmyPlace : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoin
     private Buildings[,] _grid;
     private GameObject _draggInBuilding;
     private Buildings _buildings;
+    private Buildings _building;
     private bool _isBuild;
 
     private void Awake()
@@ -46,7 +47,7 @@ public class ArmyPlace : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoin
                     _isBuild = true;
                 }
                 _draggInBuilding.transform.position = new Vector3(x, 0, z);
-                _buildings.SetTransparent(_isBuild);
+
             }
         }
     }
@@ -55,15 +56,30 @@ public class ArmyPlace : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoin
         _draggInBuilding = Instantiate(_cardSO.Prefab);
 
         _buildings = _draggInBuilding.GetComponent<Buildings>();
+        _draggInBuilding.GetComponent<BoxCollider>().enabled = true;
     }
     public void OnPointerUp(PointerEventData eventData)
     {   
-        if (!_isBuild)
+        if (!_isBuild )
         {
             Destroy(_draggInBuilding);
         }
-       
-        _buildings.ResetColor();
+        if(_buildings._isTriiger == false)
+        {
+            Debug.Log("False.S");
+        }
+        else if(_buildings._isTriiger == true)
+        {
+            Debug.Log("True.S");
+        }
+        else if(_building._isTriiger == false)
+        {
+            Debug.Log("False");
+        }
+        else if (_building._isTriiger == true)
+        {
+            Debug.Log("True");
+        }
     }
     
    

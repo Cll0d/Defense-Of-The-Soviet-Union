@@ -19,8 +19,6 @@ public class GunShotBehaviour : MonoBehaviour
     }
     private void Update()
     {
-        Debug.Log(_reload.ToString());
-        Debug.Log(_fullReload.ToString());
         DrawRay();
         if (CanShoot())
         {
@@ -87,7 +85,6 @@ public class GunShotBehaviour : MonoBehaviour
             if (enemy != null)
             {
                 enemy.TakeDamage(_damage);
-                Debug.Log("enemy");
             }
         }
         StartCoroutine(Shoot());
