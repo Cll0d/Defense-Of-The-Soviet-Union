@@ -35,7 +35,7 @@ public class Buildings : MonoBehaviour
             for (int y = 0; y < _size.y; y++)
             {
                 Gizmos.color = new Color(0.88f, 0f, 1f, 0.4f);
-                Gizmos.DrawCube(transform.position + new Vector3(x, 0, y), new Vector3(1, 0.1f, 1));
+                Gizmos.DrawCube(transform.position + new Vector3(x, 0f, y), new Vector3(1, 0.1f, 1));
             }
         }
     }

@@ -34,7 +34,6 @@ public class GunShotBehaviour : MonoBehaviour
     {
         Transform nearestEnemy = null;
         float nearestEnemyDistance = Mathf.Infinity;
-        Enemy enemy1 = GetComponent<Enemy>();
 
         foreach (GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
         {
