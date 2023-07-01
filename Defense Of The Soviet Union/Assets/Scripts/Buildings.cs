@@ -4,20 +4,23 @@ using UnityEngine;
 public class Buildings : MonoBehaviour
 {
     [SerializeField] private Vector2Int _size;
-    [SerializeField] private Renderer _renderer;
-    [SerializeField] private Renderer _renderer1;
-    [SerializeField] private Renderer _renderer2;
-    public bool _isTriiger;
+    public Canvas Canvas;
+    public bool IsTriiger = true;
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Вход");
-        _isTriiger = false;
+        IsTriiger = true;
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        IsTriiger = false;
+        Canvas.enabled = true;
     }
     private void OnTriggerExit(Collider other)
-    {
-        Debug.Log("Выход");
-        _isTriiger = true;
+    { 
+        IsTriiger = true;
+        Canvas.enabled = false;
     }
     public Vector2Int Size
     {

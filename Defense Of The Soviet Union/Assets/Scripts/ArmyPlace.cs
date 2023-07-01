@@ -4,25 +4,16 @@ using UnityEngine.EventSystems;
 public class ArmyPlace : MonoBehaviour, IDragHandler, IPointerDownHandler, IPointerUpHandler
 {
     private Vector2Int _gridSize = new Vector2Int(27, 60);
-
     private Card _cardSO;
     public Card CardSO
     {
         get => _cardSO;
         set { _cardSO = value; }
     }
-
-    private Buildings[,] _grid;
     private GameObject _draggInBuilding;
     private Buildings _buildings;
-    private Buildings _building;
     private bool _isBuild;
-
-    private void Awake()
-    {
-        _grid = new Buildings[_gridSize.x, _gridSize.y];
-    }
-
+   
     public void OnDrag(PointerEventData eventData)
     {
         if (_draggInBuilding != null)
@@ -56,87 +47,23 @@ public class ArmyPlace : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoin
         _draggInBuilding = Instantiate(_cardSO.Prefab);
 
         _buildings = _draggInBuilding.GetComponent<Buildings>();
+        _buildings.Canvas.enabled = false;
         _draggInBuilding.GetComponent<BoxCollider>().enabled = true;
     }
     public void OnPointerUp(PointerEventData eventData)
     {   
-        if (!_isBuild )
+        if (!_isBuild || _buildings.IsTriiger == false)
         {
             Destroy(_draggInBuilding);
         }
-        if(_buildings._isTriiger == false)
-        {
-            Debug.Log("False.S");
-        }
-        else if(_buildings._isTriiger == true)
-        {
-            Debug.Log("True.S");
-        }
-        else if(_building._isTriiger == false)
+        if(_buildings.IsTriiger == false)
         {
             Debug.Log("False");
         }
-        else if (_building._isTriiger == true)
+        else if(_buildings.IsTriiger == true)
         {
             Debug.Log("True");
         }
+        _buildings.Canvas.enabled = false;
     }
-    
-   
-    //public void OnDrag(PointerEventData eventData)
-    //{
-    //    if (_draggInBuilding != null)
-    //    {
-    //        var groundPlane = new Plane(Vector3.up, Vector3.zero);
-    //        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-    //        if (groundPlane.Raycast(ray, out float pos))
-    //        {
-    //            Vector3 worldPosition = ray.GetPoint(pos);
-    //            float x = worldPosition.x;
-    //            float z = worldPosition.z;
-    //            if (x < 11 || x > 37)
-    //            {
-    //                _isBuild = false;
-    //            }
-    //            else if (z < -28 || z > 30)
-    //            {
-    //                _isBuild = false;
-    //            }
-    //            else
-    //            {
-    //                _isBuild = true;
-    //            }
-    //            _draggInBuilding.transform.position = ray.GetPoint(pos);
-    //        }
-    //    }
-    //}
-    //public void OnPointerDown(PointerEventData eventData)
-    //{
-    //    _draggInBuilding = Instantiate(_cardSO.Prefab);
-
-    //    _building = _draggInBuilding.GetComponent<Building>();
-
-    //    var groundPlane = new Plane(Vector3.up, Vector3.zero);
-    //    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-    //    if (groundPlane.Raycast(ray, out float pos))
-    //    {
-    //        Vector3 worldPosition = ray.GetPoint(pos);
-    //        float x = worldPosition.x;
-    //        float z = worldPosition.z;
-    //        _draggInBuilding.transform.position = ray.GetPoint(pos);
-    //    }
-    //}
-    //public void OnPointerUp(PointerEventData eventData)
-    //{
-    //    if (!_isBuild)
-    //    {
-    //        Destroy(_draggInBuilding);
-    //    }
-    //}
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    Debug.Log("pizdec");
-    //    _isBuild = false;
-    //    Destroy(_draggInBuilding);
-    //}
 }

@@ -30,7 +30,6 @@ public class Army : MonoBehaviour
         }
         return false;
     }
-
     private void SearchTarget()
     {
         Transform nearestEnemy = null;
