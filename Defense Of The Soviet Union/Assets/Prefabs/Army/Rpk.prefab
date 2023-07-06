@@ -36,7 +36,7 @@ Transform:
   - {fileID: 8759233530672482457}
   - {fileID: 5342420549846940109}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7637340609547912761
 MonoBehaviour:
@@ -67,10 +67,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rangeRay: 100
   _damage: 15
-  _reload: 2
-  _fullReload: 1
   _rotSpeed: 20
+  _speedAttack: 1000
+  _reloadTime: 5
+  _maxAmmo: 250
+  _currentAmmo: 0
   _transform: {fileID: 7750781547789927678}
+  _enemyMask:
+    serializedVersion: 2
+    m_Bits: 8
+  Pointer: {fileID: 3732588337252834581, guid: b9cef9776cf26e34693f9536f3e681ee, type: 3}
 --- !u!65 &5666515266031972112
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -257,7 +263,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3296742036110422899}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 3.32, y: 0.58, z: 2.88}
+  m_LocalPosition: {x: 3.32, y: 0.7, z: 2.88}
   m_LocalScale: {x: 3.7, y: 4.2, z: 4.2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -389,7 +395,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 25, y: 25, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2.638, y: 4.72}
+  m_AnchoredPosition: {x: 2.638, y: 5.4}
   m_SizeDelta: {x: 1243, y: 602}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &4787038401082302611
@@ -626,7 +632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 0.5882353}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2069,7 +2075,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11ba01aef5c2e1647874a3576b0d1bf5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.66999996
+      value: 0.7900003
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11ba01aef5c2e1647874a3576b0d1bf5, type: 3}
       propertyPath: m_LocalPosition.z

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -7,21 +8,26 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float _damage;
     [SerializeField] private float _speedRun;
     [SerializeField] private int _coinForKill;
-
-    public Transform RunPoint;//Куда зомби бегут
+   // [SerializeField] private Animator _animator;
+    [SerializeField] private Transform RunPoint;
+    private HealthBase _healthBase;
+    private bool _isAttack = false;
     
 
     private void Update()
     {
-        if(_health <= 0)
+        if(!_isAttack)
         {
-            Die();
-        }
-        Run();
+            Run();
+        }    
     }
     public void TakeDamage(float damage)
     {
         _health -= (damage - _armor);
+        if(_health < 1)
+        {
+            Die();
+        }
     }
     private void Die()
     {
@@ -31,8 +37,28 @@ public class Enemy : MonoBehaviour
     {
         transform.position = Vector3.MoveTowards(transform.position, RunPoint.position, _speedRun * Time.deltaTime);
     }
-    private void Attack()
+    private IEnumerator Attack()
     {
-
+        if(_healthBase.Health > 0)
+        {
+            yield return new WaitForSeconds(1);
+            _healthBase.TakeDamage(_damage);
+            StartCoroutine(Attack());
+        }
+        Debug.Log("attack");
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        HealthBase  healthBase = other.gameObject.GetComponent<HealthBase>();
+        if (healthBase)
+        {
+            _healthBase = healthBase;
+            _isAttack = true;
+            StartCoroutine(Attack());
+        }
+        else
+        {
+            _isAttack = false;
+        }
     }
 }

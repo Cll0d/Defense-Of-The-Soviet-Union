@@ -56,14 +56,5 @@ public class ArmyPlace : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoin
         {
             Destroy(_draggInBuilding);
         }
-        if(_buildings.IsTriiger == false)
-        {
-            Debug.Log("False");
-        }
-        else if(_buildings.IsTriiger == true)
-        {
-            Debug.Log("True");
-        }
-        _buildings.Canvas.enabled = false;
     }
 }

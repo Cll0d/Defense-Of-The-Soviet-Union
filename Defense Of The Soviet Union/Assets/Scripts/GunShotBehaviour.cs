@@ -5,29 +5,46 @@ public class GunShotBehaviour : MonoBehaviour
 {
     [SerializeField] private float _rangeRay;
     [SerializeField] private float _damage;
-    [SerializeField] private float _reload;
-    [SerializeField] private float _fullReload;
     [SerializeField] private float _rotSpeed;
+    [SerializeField] private float _speedAttack;
+    [SerializeField] private float _reloadTime;
+    [SerializeField] private int _maxAmmo;
+    [SerializeField] private int _currentAmmo;
+    private bool _isReloading;
     [SerializeField] private Transform _transform;
+    [SerializeField] private LayerMask _enemyMask;
     private Ray ray;
     private RaycastHit hit;
     private Enemy enemy;
+    private Transform _transformRay;
+    public Transform Pointer;
 
     private void Start()
     {
-
+        _currentAmmo = _maxAmmo;
     }
     private void Update()
     {
         DrawRay();
-        if (CanShoot())
+        if( _isReloading )
+        {
+            return;
+        }
+        if(_currentAmmo > 0 )
         {
             SearchTarget();
         }
-        if (_fullReload > 0)
+        else
         {
-            _fullReload -= Time.deltaTime;
+            StartCoroutine(Reload());
         }
+    }
+    private IEnumerator Reload()
+    {
+        _isReloading = true;
+        yield return new WaitForSeconds( _reloadTime );
+        _currentAmmo = _maxAmmo;
+        _isReloading = false;
     }
 
     private void SearchTarget()
@@ -61,14 +78,21 @@ public class GunShotBehaviour : MonoBehaviour
         targetRotation = Quaternion.Euler(newEulerAngles);
         _transform.rotation = Quaternion.Slerp(_transform.rotation, targetRotation, _rotSpeed * Time.deltaTime);
     }
-    private bool CanShoot()
-    {
-        if (_fullReload <= 0)
-        {
-            return true;
-        }
-        return false;
-    }
+    //private bool CanShoot()
+    //{
+    //    if(_currentCountBullet <= 1)
+    //    {
+    //        _currentReload -= Time.deltaTime;
+    //        return false;
+    //    }
+    //    else if(_currentReload <= 0) 
+    //    {
+    //        _currentCountBullet = _countBullet;
+    //        _currentReload = _fullReload;
+    //        return true;
+    //    }
+    //    return false;
+    //}
     private void DrawRay()
     {
         ray = new Ray(_transform.position, -_transform.up);
@@ -77,15 +101,22 @@ public class GunShotBehaviour : MonoBehaviour
     }
     private IEnumerator Shoot()
     {
-        yield return new WaitForSeconds(_reload);
+        _currentAmmo--;
+        Debug.Log("shoot");
         if (Physics.Raycast(ray, out hit))
         {
-            enemy = hit.collider.gameObject.GetComponent<Enemy>();
-            if (enemy != null)
+            Pointer.position = hit.point;
+            if(_enemyMask == (_enemyMask | (1 << hit.collider.gameObject.layer)))
             {
-                enemy.TakeDamage(_damage);
+                enemy = hit.collider.gameObject.GetComponent<Enemy>();
+                if (enemy != null)
+                {
+                    Debug.Log("takedamage");
+                    enemy.TakeDamage(_damage);
+                }
             }
         }
+        yield return new WaitForSeconds(_speedAttack);
         StartCoroutine(Shoot());
     }
 }
