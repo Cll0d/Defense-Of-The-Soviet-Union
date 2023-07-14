@@ -6,7 +6,7 @@ public class Card : ScriptableObject
 {
     public Sprite Icon;
     public GameObject Prefab;
-    public int Cost;
+    public int Ñost;
 
     void Start()
     {

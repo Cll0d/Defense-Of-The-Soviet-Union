@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float _damage;
     [SerializeField] private float _speedRun;
     [SerializeField] private int _coinForKill;
+    [SerializeField] private CoinManager _coinManager;
    // [SerializeField] private Animator _animator;
     [SerializeField] private Transform RunPoint;
     private HealthBase _healthBase;
@@ -32,6 +33,7 @@ public class Enemy : MonoBehaviour
     private void Die()
     {
         Destroy(gameObject);
+        _coinManager.PayKill(_coinForKill);
     }
     private void Run()
     {

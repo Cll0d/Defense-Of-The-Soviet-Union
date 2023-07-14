@@ -34,7 +34,7 @@ Transform:
   m_Children:
   - {fileID: 3388151756329643351}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9211109223656579556
 MonoBehaviour:
@@ -65,6 +65,8 @@ MonoBehaviour:
   _damage: 10
   _speedRun: 10
   _coinForKill: 20
+  _coinManager: {fileID: 7372833760505512542, guid: ea6e05adc002c4748a506de3ae217d0e,
+    type: 3}
   RunPoint: {fileID: 0}
 --- !u!135 &2552898964079671634
 SphereCollider:

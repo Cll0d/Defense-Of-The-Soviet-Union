@@ -5,6 +5,7 @@ public class ArmyPlace : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoin
 {
     private Vector2Int _gridSize = new Vector2Int(27, 60);
     private Card _cardSO;
+    private CoinManager _coinManager;
     public Card CardSO
     {
         get => _cardSO;
@@ -13,48 +14,64 @@ public class ArmyPlace : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoin
     private GameObject _draggInBuilding;
     private Buildings _buildings;
     private bool _isBuild;
-   
+    private Buildings[,] _grid;
+    public bool IsAbleToPlant { get; set; }
+
+    private void Awake()
+    {
+        _coinManager = CoinManager.Instance;
+    }
     public void OnDrag(PointerEventData eventData)
     {
-        if (_draggInBuilding != null)
+        if (IsAbleToPlant)
         {
-            var groundPlane = new Plane(Vector3.up, Vector3.zero);
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (groundPlane.Raycast(ray, out float pos))
+            if (_draggInBuilding != null)
             {
-                Vector3 worldPosition = ray.GetPoint(pos);
-                int x = Mathf.RoundToInt(worldPosition.x);
-                int z = Mathf.RoundToInt(worldPosition.z);
-                if (x < 9 || x > (_gridSize.x - _buildings.Size.x) + 10)
+                var groundPlane = new Plane(Vector3.up, Vector3.zero);
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                if (groundPlane.Raycast(ray, out float pos))
                 {
-                    _isBuild = false;
-                }
-                else if (z < -30 || z > (_gridSize.y - _buildings.Size.y) - 26)
-                {
-                    _isBuild = false;
-                }
-                else
-                {
-                    _isBuild = true;
-                }
-                _draggInBuilding.transform.position = new Vector3(x, 0, z);
+                    Vector3 worldPosition = ray.GetPoint(pos);
+                    int x = Mathf.RoundToInt(worldPosition.x);
+                    int z = Mathf.RoundToInt(worldPosition.z);
+                    if (x < 9 || x > (_gridSize.x - _buildings.Size.x) + 10)
+                    {
+                        _isBuild = false;
+                    }
+                    else if (z < -30 || z > (_gridSize.y - _buildings.Size.y) - 26)
+                    {
+                        _isBuild = false;
+                    }
+                    else
+                    {
+                        _isBuild = true;
+                    }
+                    _draggInBuilding.transform.position = new Vector3(x, 0, z);
 
+                }
             }
         }
     }
     public void OnPointerDown(PointerEventData eventData)
     {
-        _draggInBuilding = Instantiate(_cardSO.Prefab);
+        if (IsAbleToPlant)
+        {
+            _draggInBuilding = Instantiate(_cardSO.Prefab);
 
-        _buildings = _draggInBuilding.GetComponent<Buildings>();
-        _buildings.Canvas.enabled = false;
-        _draggInBuilding.GetComponent<BoxCollider>().enabled = true;
+            _buildings = _draggInBuilding.GetComponent<Buildings>();
+            _buildings.Canvas.enabled = false;
+            _draggInBuilding.GetComponent<BoxCollider>().enabled = true;
+        }
     }
     public void OnPointerUp(PointerEventData eventData)
-    {   
-        if (!_isBuild || _buildings.IsTriiger == false)
+    {
+        if (IsAbleToPlant)
         {
-            Destroy(_draggInBuilding);
+            if (!_isBuild || _buildings.IsTriiger == false)
+            {
+                Destroy(_draggInBuilding);
+            }
+            _coinManager.SpendCoins(_cardSO.Ñost);
         }
     }
 }

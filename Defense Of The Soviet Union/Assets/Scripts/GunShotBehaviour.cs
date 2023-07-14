@@ -16,8 +16,6 @@ public class GunShotBehaviour : MonoBehaviour
     private Ray ray;
     private RaycastHit hit;
     private Enemy enemy;
-    private Transform _transformRay;
-    public Transform Pointer;
 
     private void Start()
     {
@@ -105,7 +103,6 @@ public class GunShotBehaviour : MonoBehaviour
         Debug.Log("shoot");
         if (Physics.Raycast(ray, out hit))
         {
-            Pointer.position = hit.point;
             if(_enemyMask == (_enemyMask | (1 << hit.collider.gameObject.layer)))
             {
                 enemy = hit.collider.gameObject.GetComponent<Enemy>();
