@@ -4,17 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
-<<<<<<< Updated upstream
-  - HealthBase
-=======
   - Doroga
->>>>>>> Stashed changes
+  - HealthBase
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Enemy
+  - 
   - Water
   - UI
   - 

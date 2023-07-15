@@ -4980,5 +4980,5 @@ MonoBehaviour:
   _damage: 1000
   Radius: 50
   Force: 1000
-  ExplosionEffect: {fileID: 4804170306448543671, guid: fd89864a5de1a45458c0f15f385f6a90,
+  ExplosionEffect: {fileID: 4804170306448543671, guid: 8f75c89cdc1e7bc4a9de71bc4cfdc30e,
     type: 3}
