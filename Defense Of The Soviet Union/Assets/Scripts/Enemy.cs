@@ -14,7 +14,10 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Transform RunPoint;
     private HealthBase _healthBase;
     private bool _isAttack = false;
-    
+    private void Awake()
+    {
+        _coinManager = CoinManager.Instance;
+    }
 
     private void Update()
     {

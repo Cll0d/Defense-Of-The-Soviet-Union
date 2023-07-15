@@ -100,11 +100,12 @@ public class GunShotBehaviour : MonoBehaviour
     private IEnumerator Shoot()
     {
         _currentAmmo--;
-        Debug.Log("shoot");
         if (Physics.Raycast(ray, out hit))
         {
-            if(_enemyMask == (_enemyMask | (1 << hit.collider.gameObject.layer)))
+            Debug.Log("Raytarget");
+            if (_enemyMask == (_enemyMask | (1 << hit.collider.gameObject.layer)))
             {
+                Debug.Log("enemymask");
                 enemy = hit.collider.gameObject.GetComponent<Enemy>();
                 if (enemy != null)
                 {

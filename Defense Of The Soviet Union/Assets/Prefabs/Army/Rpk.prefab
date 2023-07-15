@@ -75,8 +75,7 @@ MonoBehaviour:
   _transform: {fileID: 7750781547789927678}
   _enemyMask:
     serializedVersion: 2
-    m_Bits: 8
-  Pointer: {fileID: 3732588337252834581, guid: b9cef9776cf26e34693f9536f3e681ee, type: 3}
+    m_Bits: 64
 --- !u!65 &5666515266031972112
 BoxCollider:
   m_ObjectHideFlags: 0
