@@ -4841,6 +4841,7 @@ GameObject:
   - component: {fileID: 2873968712143614395}
   - component: {fileID: 4394333891245411963}
   - component: {fileID: 403644350040307013}
+  - component: {fileID: 3329903601340789388}
   m_Layer: 0
   m_Name: ProjectileMortor
   m_TagString: Untagged
@@ -4862,7 +4863,7 @@ Transform:
   m_Children:
   - {fileID: 4210462478471059724}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45}
 --- !u!33 &1468794261553374176
 MeshFilter:
@@ -4964,3 +4965,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3329903601340789388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5897781070935918896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af44b291151ac824584df2c0c2551faa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _damage: 1000
+  Radius: 50
+  Force: 1000
+  ExplosionEffect: {fileID: 4804170306448543671, guid: fd89864a5de1a45458c0f15f385f6a90,
+    type: 3}
