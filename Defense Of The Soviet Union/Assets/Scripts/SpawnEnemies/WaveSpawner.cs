@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class WaveSpawner : MonoBehaviour
 {
     [SerializeField] private Waves[] _waves;
+    [SerializeField] private TMP_Text _textWaves;
     private int _currentEnemyIndex;
     private int _currentWaveIndex;
     private int _enemiesLeftToSpawn;
@@ -35,6 +37,7 @@ public class WaveSpawner : MonoBehaviour
                 _currentWaveIndex++;
                 _enemiesLeftToSpawn = _waves[_currentWaveIndex].WaveSettings.Length;
                 _currentEnemyIndex = 0;
+                _textWaves.text = "Волна" + _currentWaveIndex.ToString();
             }
         }
 

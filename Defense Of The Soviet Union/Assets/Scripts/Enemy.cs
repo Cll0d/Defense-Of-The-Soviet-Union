@@ -28,7 +28,7 @@ public class Enemy : MonoBehaviour
     }
     public void TakeDamage(float damage)
     {
-        _health -= (damage - _armor);
+        _health -= damage * (1 -  (_armor / 100));
         if(_health < 1)
         {
             Die();

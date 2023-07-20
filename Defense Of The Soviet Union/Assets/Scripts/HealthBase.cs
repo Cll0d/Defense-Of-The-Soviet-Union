@@ -20,6 +20,6 @@ public class HealthBase : MonoBehaviour
     }
     private void Die()
     {
-        Destroy(gameObject);
+        Destroy(this.gameObject);
     }
 }

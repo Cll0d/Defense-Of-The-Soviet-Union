@@ -153,10 +153,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _health: 100
-  _armor: 10
-  _damage: 10
-  _speedRun: 10
-  _coinForKill: 10
+  _armor: 20
+  _damage: 15
+  _speedRun: 15
+  _coinForKill: 20
   _coinManager: {fileID: 7372833760505512542, guid: ea6e05adc002c4748a506de3ae217d0e,
     type: 3}
   RunPoint: {fileID: 4723471188392552507, guid: 8f301e5566043fc46b9ba45c33166007,
