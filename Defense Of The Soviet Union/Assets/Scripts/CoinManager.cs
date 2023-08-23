@@ -39,5 +39,6 @@ public class CoinManager : MonoBehaviour
         _coins -= coin;
         _coinsText.text = _coins.ToString();
         GameEvents.Instance.OnCoinsChange();
+        Progress.Instance.Save();
     }
 }

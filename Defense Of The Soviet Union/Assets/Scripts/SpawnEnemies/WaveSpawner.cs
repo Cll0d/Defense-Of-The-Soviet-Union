@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UIElements;
 
 public class WaveSpawner : MonoBehaviour
 {
-    [SerializeField] private Waves[] _waves;
+    [SerializeField] public Waves[] _waves;
     [SerializeField] private TMP_Text _textWaves;
+    [SerializeField] private Button _button;
     private int _currentEnemyIndex;
     private int _currentWaveIndex;
     private int _enemiesLeftToSpawn;
@@ -17,6 +19,7 @@ public class WaveSpawner : MonoBehaviour
         LaunchWave();
 
     }
+
     private IEnumerator SpawnEnemyInWaves()
     {
         if (_enemiesLeftToSpawn > 0)
@@ -39,13 +42,21 @@ public class WaveSpawner : MonoBehaviour
                 _currentEnemyIndex = 0;
                 _textWaves.text = "Волна" + _currentWaveIndex.ToString();
             }
+            else
+            {
+                Invoke("ActiveBtn", 20f);
+            }
         }
-
     } 
+    public void ActiveBtn()
+    {
+        _button.SetEnabled(true);
+    }
 
     public void LaunchWave()
     {
         StartCoroutine(SpawnEnemyInWaves());
+        Progress.Instance.Save();
     }
 }
 
