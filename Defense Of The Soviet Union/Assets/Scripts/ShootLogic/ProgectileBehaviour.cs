@@ -5,7 +5,6 @@ using System;
 
 public class ProgectileBehaviour : MonoBehaviour
 {
-    [SerializeField] float _damage;
     [SerializeField] private float _reload;
     [SerializeField] private float _currentReload;
     [SerializeField] private float _weaponRange;
