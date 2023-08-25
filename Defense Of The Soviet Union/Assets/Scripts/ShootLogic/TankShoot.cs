@@ -8,32 +8,11 @@ public class TankShoot : MonoBehaviour
     [SerializeField] private float _currentReload;
     [SerializeField] private float _weaponRange;
 
-    //public GameObject ProjectileTank;
-    //public GameObject Dulo;
-
     public float AngleInDegrees;
     float g = Physics.gravity.y;
 
     public Transform SpawnTransform; //Откуда вылетают снаряды
     public GameObject Bullet; //Снаряд
-
-    //void Shoot()
-    //{
-    //    if (nearestEnemy != null)
-    //    {
-    //        Vector3 SpawnPoint = Dulo.transform.position;
-    //        Quaternion SpawnRoot = Dulo.transform.rotation;
-    //        GameObject Projectile = Instantiate(ProjectileTank, SpawnPoint, SpawnRoot) as GameObject;
-
-    //        Rigidbody Force = Projectile.GetComponent<Rigidbody>();
-
-    //        Force.AddForce(Projectile.transform.forward * 30, ForceMode.Impulse);
-
-    //        //Destroy(Projectile, 5);
-
-    //    }
-    //}
-
 
     void Update()
     {
