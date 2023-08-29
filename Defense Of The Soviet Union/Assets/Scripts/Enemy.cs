@@ -7,41 +7,43 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float _health;
     [SerializeField] private float _armor;
     [SerializeField] private float _damage;
-    [SerializeField] private float _speedRun;
     [SerializeField] private int _coinForKill;
     [SerializeField] private CoinManager _coinManager;
-   // [SerializeField] private Animator _animator;
-    [SerializeField] private Transform RunPoint;
+    private Animator _animator;
     private HealthBase _healthBase;
     private bool _isAttack = false;
     private void Awake()
     {
         _coinManager = CoinManager.Instance;
+        _animator = GetComponent<Animator>();
     }
 
     private void Update()
     {
         if(!_isAttack)
         {
-            Run();
-        }    
+            _animator.SetBool(name: "Atack", value: false); 
+            
+        }
+        else
+        {
+            _animator.SetBool(name: "Atack", value: true);
+        }
     }
     public void TakeDamage(float damage)
     {
         _health -= damage * (1 -  (_armor / 100));
         if(_health < 1)
         {
-            Die();
+            _animator.SetBool(name: "Die", value: true);
+            Invoke("Die", 2.0f);
+            //Die();
         }
     }
     private void Die()
     {
         Destroy(gameObject);
         _coinManager.PayKill(_coinForKill);
-    }
-    private void Run()
-    {
-        transform.position = Vector3.MoveTowards(transform.position, RunPoint.position, _speedRun * Time.deltaTime);
     }
     private IEnumerator Attack()
     {
@@ -50,6 +52,7 @@ public class Enemy : MonoBehaviour
             yield return new WaitForSeconds(1);
             _healthBase.TakeDamage(_damage);
             StartCoroutine(Attack());
+
         }
         Debug.Log("attack");
     }
