@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af7bde677c9c13a4da7fc9dfd7d3dd03, type: 3}
-  m_Name: Katysha
+  m_Name: Tank
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: dbf00f03277cf5745a9c7521ed8d5b16, type: 3}
-  Prefab: {fileID: 4916361526590717097, guid: 0ed82a4be29a9d04794688d707fe3930, type: 3}
-  "\u0421ost": 1500
+  Icon: {fileID: 21300000, guid: 825f1d95135489e4489ce912abf2f8b7, type: 3}
+  Prefab: {fileID: 7813644917501418834, guid: 451315155662bbe498e7ef96b9ded2e7, type: 3}
+  "\u0421ost": 1200

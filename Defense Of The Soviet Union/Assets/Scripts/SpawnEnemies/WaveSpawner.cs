@@ -50,6 +50,7 @@ public class WaveSpawner : MonoBehaviour
     } 
     public void ActiveBtn()
     {
+
         _button.SetEnabled(true);
     }
 

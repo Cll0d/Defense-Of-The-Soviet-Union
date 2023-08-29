@@ -65,6 +65,7 @@ public class ArmyPlace : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoin
     }
     public void OnPointerUp(PointerEventData eventData)
     {
+        _buildings.Canvas.enabled = false;
         if (IsAbleToPlant)
         {
             if (!_isBuild || _buildings.IsTriiger == false)

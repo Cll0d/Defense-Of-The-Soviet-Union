@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class GunShotBehaviour : MonoBehaviour
+public class SoldeirGunBehaviour : MonoBehaviour
 {
     [SerializeField] private float _rangeRay;
     [SerializeField] private float _damage;
@@ -24,11 +24,11 @@ public class GunShotBehaviour : MonoBehaviour
     private void Update()
     {
         DrawRay();
-        if( _isReloading )
+        if (_isReloading)
         {
             return;
         }
-        if(_currentAmmo > 0 )
+        if (_currentAmmo > 0)
         {
             SearchTarget();
         }
@@ -40,7 +40,7 @@ public class GunShotBehaviour : MonoBehaviour
     private IEnumerator Reload()
     {
         _isReloading = true;
-        yield return new WaitForSeconds( _reloadTime );
+        yield return new WaitForSeconds(_reloadTime);
         _currentAmmo = _maxAmmo;
         _isReloading = false;
     }
@@ -78,8 +78,8 @@ public class GunShotBehaviour : MonoBehaviour
     }
     private void DrawRay()
     {
-        ray = new Ray(_transform.position, -_transform.up);
-        Debug.DrawRay(_transform.position, -_transform.up * _rangeRay, Color.yellow);
+        ray = new Ray(_transform.position, _transform.forward);
+        Debug.DrawRay(_transform.position, _transform.forward * _rangeRay, Color.yellow);
 
     }
     private IEnumerator Shoot()
