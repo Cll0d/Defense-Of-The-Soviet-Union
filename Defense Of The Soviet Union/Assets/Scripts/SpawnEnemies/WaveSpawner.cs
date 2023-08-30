@@ -10,6 +10,7 @@ public class WaveSpawner : MonoBehaviour
     [SerializeField] public Waves[] _waves;
     [SerializeField] private TMP_Text _textWaves;
     [SerializeField] private Button _button;
+    [SerializeField] private Canvas _canvas;
     private int _currentEnemyIndex;
     private int _currentWaveIndex;
     private int _enemiesLeftToSpawn;
@@ -53,6 +54,7 @@ public class WaveSpawner : MonoBehaviour
     {
 
         _button.enabled = true;
+        _canvas.enabled = true;
     }
 
     public void LaunchWave()

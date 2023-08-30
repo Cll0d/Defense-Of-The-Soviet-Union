@@ -9,7 +9,10 @@ public class GameManager : MonoBehaviour
 {
     [DllImport("__Internal")]
     private static extern void ShowAdv();
+    [DllImport("__Internal")]
+    private static extern void RateGame();
     [SerializeField] GameObject _finishWindow;
+
     
 
     public void ShowFinishWindow()
@@ -38,5 +41,14 @@ public class GameManager : MonoBehaviour
         }
         Progress.Instance.Save();
         SceneManager.LoadScene(next);
+    }
+    public void RateGameBtn()
+    {
+        RateGame();
+    }
+
+    public void ShowAdvBtn()
+    {
+        
     }
 }
