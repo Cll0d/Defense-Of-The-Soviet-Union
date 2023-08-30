@@ -64,13 +64,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e27d00489a11824bbc1bfcc11ba4506, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rangeRay: 100
-  _damage: 15
+  _rangeRay: 120
+  _damage: 10
   _rotSpeed: 20
-  _speedAttack: 1000
-  _reloadTime: 5
+  _speedAttack: 100
+  _reloadTime: 8
   _maxAmmo: 250
-  _currentAmmo: 0
+  _currentAmmo: 250
   _transform: {fileID: 7750781547789927678}
   _enemyMask:
     serializedVersion: 2

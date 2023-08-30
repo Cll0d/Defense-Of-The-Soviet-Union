@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
     [DllImport("__Internal")]
     private static extern void ShowAdv();
     [SerializeField] GameObject _finishWindow;
-    [SerializeField]  WaveSpawner _waves;
     
 
     public void ShowFinishWindow()

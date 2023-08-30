@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.UIElements;
+//using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class WaveSpawner : MonoBehaviour
 {
@@ -51,7 +52,7 @@ public class WaveSpawner : MonoBehaviour
     public void ActiveBtn()
     {
 
-        _button.SetEnabled(true);
+        _button.enabled = true;
     }
 
     public void LaunchWave()

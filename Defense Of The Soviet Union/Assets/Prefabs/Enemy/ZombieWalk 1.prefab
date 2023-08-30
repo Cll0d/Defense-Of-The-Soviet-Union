@@ -2130,7 +2130,7 @@ GameObject:
   - component: {fileID: 6130119340714233468}
   - component: {fileID: 2494898973941741212}
   - component: {fileID: 8022465298709051752}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ZombieWalk
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2619,7 +2619,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7514766321754309771}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ZombieWalk 1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2640,7 +2640,7 @@ Transform:
   m_Children:
   - {fileID: 6649389129261475438}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7343170517858332505
 GameObject:
