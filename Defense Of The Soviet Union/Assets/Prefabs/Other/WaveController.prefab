@@ -54,31 +54,7 @@ MonoBehaviour:
         type: 3}
       _neededSpawner: {fileID: 0}
       _spawnDelay: 2
-    - _enemy: {fileID: 7109139150564573598, guid: d7b58c08d7c2e7142933a056805b0feb,
-        type: 3}
-      _neededSpawner: {fileID: 0}
-      _spawnDelay: 2
-    - _enemy: {fileID: 7109139150564573598, guid: d7b58c08d7c2e7142933a056805b0feb,
-        type: 3}
-      _neededSpawner: {fileID: 0}
-      _spawnDelay: 2
-    - _enemy: {fileID: 7109139150564573598, guid: d7b58c08d7c2e7142933a056805b0feb,
-        type: 3}
-      _neededSpawner: {fileID: 0}
-      _spawnDelay: 2
-    - _enemy: {fileID: 7109139150564573598, guid: d7b58c08d7c2e7142933a056805b0feb,
-        type: 3}
-      _neededSpawner: {fileID: 0}
-      _spawnDelay: 2
   - _waveSettings:
-    - _enemy: {fileID: 7109139150564573598, guid: d7b58c08d7c2e7142933a056805b0feb,
-        type: 3}
-      _neededSpawner: {fileID: 0}
-      _spawnDelay: 3
-    - _enemy: {fileID: 7109139150564573598, guid: d7b58c08d7c2e7142933a056805b0feb,
-        type: 3}
-      _neededSpawner: {fileID: 0}
-      _spawnDelay: 3
     - _enemy: {fileID: 7109139150564573598, guid: d7b58c08d7c2e7142933a056805b0feb,
         type: 3}
       _neededSpawner: {fileID: 0}
@@ -104,7 +80,7 @@ MonoBehaviour:
         type: 3}
       _neededSpawner: {fileID: 0}
       _spawnDelay: 5
-    - _enemy: {fileID: 3715280135814856021, guid: dfa366ef9d3eb8243955a3f781014b40,
+    - _enemy: {fileID: 7109139150564573598, guid: d7b58c08d7c2e7142933a056805b0feb,
         type: 3}
       _neededSpawner: {fileID: 0}
       _spawnDelay: 5
