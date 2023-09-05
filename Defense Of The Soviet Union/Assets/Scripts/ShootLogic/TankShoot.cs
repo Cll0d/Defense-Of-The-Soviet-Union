@@ -73,7 +73,7 @@ public class TankShoot : MonoBehaviour
             float v = Mathf.Sqrt(Mathf.Abs(v2));
 
             GameObject newBullet = Instantiate(Bullet, SpawnTransform.position, Quaternion.identity);
-            newBullet.GetComponent<Rigidbody>().velocity = SpawnTransform.forward * v;
+            newBullet.GetComponent<Rigidbody>().velocity = SpawnTransform.right * v;
 
         }
     }
