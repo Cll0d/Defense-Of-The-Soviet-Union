@@ -26,21 +26,20 @@ mergeInto(LibraryManager.library, {
 	},
 
 
-	LoadExtern: function (){
-		player.getData().then(_date => {
-			const myJSON = JSON.stringify(_date);
-			myGameInstance.SendMessage('Progress', 'Load' , myJSON);
-		});
-	},
+	//
 
-	
-	GetLang : function() {
-		var lang = ysdk.enviroment.i18n.lang;
-		var bufferSize = lengthBytesUTF8(lang) + 1;
-		var buffer = _malloc(bufferSize);
-		stringToUTF8(lang,buffer,bufferSize);
-		return buffer;
-	},
+	LoadExtern: function(){
+    if(player != null){
+      player.getData().then(_date => {
+          const myJSON = JSON.stringify(_date);
+          myGameInstance.SendMessage('Progress', 'Load', myJSON);
+      });
+    }
+    else{
+      LoadExtern();
+    }
+  },
+
 
 	ShowAdv : function(){
 		ysdk.adv.showFullscreenAdv({

@@ -1,8 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 [System.Serializable]
 public class PlayerInfo
@@ -50,7 +48,7 @@ public class Progress : MonoBehaviour
     public void Load(string value)
     {
         PlayerInfo = JsonUtility.FromJson<PlayerInfo>(value);
-        _playerInfoText.text = PlayerInfo.Level + "\n" + PlayerInfo.Coin + "\n" + PlayerInfo._grid;
+        _playerInfoText.text = PlayerInfo.Level + "\n" + PlayerInfo.Coin ;
     }
     public void LoadDate()
     {

@@ -37,13 +37,13 @@ public class Enemy : MonoBehaviour
         {
             _animator.SetBool(name: "Die", value: true);
             Invoke("Die", 2.0f);
-            //Die();
         }
     }
     private void Die()
     {
         Destroy(gameObject);
         _coinManager.PayKill(_coinForKill);
+        Destroy(transform.parent.gameObject);
     }
     private IEnumerator Attack()
     {
@@ -54,7 +54,6 @@ public class Enemy : MonoBehaviour
             StartCoroutine(Attack());
 
         }
-        Debug.Log("attack");
     }
     private void OnTriggerEnter(Collider other)
     {

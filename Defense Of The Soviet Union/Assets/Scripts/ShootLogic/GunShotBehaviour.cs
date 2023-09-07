@@ -87,14 +87,11 @@ public class GunShotBehaviour : MonoBehaviour
         _currentAmmo--;
         if (Physics.Raycast(ray, out hit))
         {
-            Debug.Log("Raytarget");
             if (_enemyMask == (_enemyMask | (1 << hit.collider.gameObject.layer)))
             {
-                Debug.Log("enemymask");
                 enemy = hit.collider.gameObject.GetComponent<Enemy>();
                 if (enemy != null)
                 {
-                    Debug.Log("takedamage");
                     enemy.TakeDamage(_damage);
                 }
             }

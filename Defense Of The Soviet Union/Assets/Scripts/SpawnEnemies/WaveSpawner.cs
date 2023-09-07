@@ -27,22 +27,24 @@ public class WaveSpawner : MonoBehaviour
         if (_enemiesLeftToSpawn > 0)
         {
             yield return new WaitForSeconds(_waves[_currentWaveIndex].WaveSettings[_currentEnemyIndex].SpawnDelay);
+
             Instantiate(_waves[_currentWaveIndex].WaveSettings[_currentEnemyIndex].Enemy, 
                 _waves[_currentWaveIndex].WaveSettings[_currentEnemyIndex].NeededSpawner.transform.position, Quaternion.identity);
-        
+             
             _enemiesLeftToSpawn--;
             _currentEnemyIndex++;
 
             StartCoroutine(SpawnEnemyInWaves());
+            _textWaves.text = "Волна" + _currentWaveIndex.ToString();
         }
         else
         {
+
             if (_currentWaveIndex < _waves.Length - 1)
             {
                 _currentWaveIndex++;
                 _enemiesLeftToSpawn = _waves[_currentWaveIndex].WaveSettings.Length;
                 _currentEnemyIndex = 0;
-                _textWaves.text = "Волна" + _currentWaveIndex.ToString();
             }
             else
             {

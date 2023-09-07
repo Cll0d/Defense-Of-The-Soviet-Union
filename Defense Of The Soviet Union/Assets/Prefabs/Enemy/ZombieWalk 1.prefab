@@ -2130,6 +2130,7 @@ GameObject:
   - component: {fileID: 6130119340714233468}
   - component: {fileID: 2494898973941741212}
   - component: {fileID: 8022465298709051752}
+  - component: {fileID: 461361572418091273}
   m_Layer: 6
   m_Name: ZombieWalk
   m_TagString: Enemy
@@ -2200,9 +2201,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f60db47ea814d04490bf6cfbc39c18f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 100
+  _health: 150
   _armor: 1
-  _damage: 1000
+  _damage: 80
   _coinForKill: 100
   _coinManager: {fileID: 0}
 --- !u!136 &8022465298709051752
@@ -2228,6 +2229,18 @@ CapsuleCollider:
   m_Height: 1.7594411
   m_Direction: 1
   m_Center: {x: -0.010632626, y: 0.92288095, z: 0.021301877}
+--- !u!114 &461361572418091273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6096560233115964985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e9495f95cd169458a687976437d202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6396689450698371897
 GameObject:
   m_ObjectHideFlags: 0
@@ -2619,6 +2632,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7514766321754309771}
+  - component: {fileID: 5429074689111378572}
   m_Layer: 6
   m_Name: ZombieWalk 1
   m_TagString: Enemy
@@ -2642,6 +2656,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5429074689111378572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7109139150564573598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e9495f95cd169458a687976437d202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7343170517858332505
 GameObject:
   m_ObjectHideFlags: 0
