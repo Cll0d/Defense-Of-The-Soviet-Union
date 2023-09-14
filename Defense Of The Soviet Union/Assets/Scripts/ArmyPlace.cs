@@ -47,7 +47,6 @@ public class ArmyPlace : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoin
                         _isBuild = true;
                     }
                     _draggInBuilding.transform.position = new Vector3(x, 0, z);
-
                 }
             }
         }

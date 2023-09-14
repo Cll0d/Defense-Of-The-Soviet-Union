@@ -66,7 +66,10 @@ public class WaveSpawner : MonoBehaviour
 
     public void LaunchWave()
     {
-        StartCoroutine(SpawnEnemyInWaves());
+        if(gameObject != null)
+        {
+            StartCoroutine(SpawnEnemyInWaves());
+        }
     }
     public void ReplayCanvas()
     {
