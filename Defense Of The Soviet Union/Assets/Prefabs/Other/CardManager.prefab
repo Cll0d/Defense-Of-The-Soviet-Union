@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &87578820983850933
 MonoBehaviour:
@@ -45,12 +45,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _cardHolderPosition: {fileID: 0}
-  _card: {fileID: 6174807732113561954, guid: 87094003d1e2e864f8324b940b24e0aa, type: 3}
+  _card: {fileID: 2363367064488059059, guid: d4f4b012f9bfb884f881cf96d76e871b, type: 3}
   _cardSO:
   - {fileID: 11400000, guid: 1604987ff09bcd242945feb20cc30c40, type: 2}
   - {fileID: 11400000, guid: f63585bdb751ae9488c705f4623405f5, type: 2}
   - {fileID: 11400000, guid: 0b365fc7fac827d4c990e03bfc3ff031, type: 2}
-  - {fileID: 11400000, guid: e8fa372c0d288ab4f93df8dd1562894d, type: 2}
-  - {fileID: 11400000, guid: 5cc7c550892f8644da35bc3c280558f1, type: 2}
   _plantedCards: []
   _coinManager: {fileID: 0}

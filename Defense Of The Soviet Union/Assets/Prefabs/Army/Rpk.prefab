@@ -65,11 +65,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rangeRay: 120
-  _damage: 10
-  _rotSpeed: 20
-  _speedAttack: 100
-  _reloadTime: 8
-  _maxAmmo: 250
+  _damage: 20
+  _rotSpeed: 50
+  _speedAttack: 150
+  _reloadTime: 3
+  _maxAmmo: 400
   _currentAmmo: 250
   _transform: {fileID: 7750781547789927678}
   _enemyMask:

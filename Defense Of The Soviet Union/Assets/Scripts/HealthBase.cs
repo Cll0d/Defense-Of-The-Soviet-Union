@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HealthBase : MonoBehaviour
 {
+    [SerializeField] GameObject Button;
     [SerializeField] private float _health;
     public float Health
     {
@@ -20,6 +21,7 @@ public class HealthBase : MonoBehaviour
     }
     private void Die()
     {
-        Destroy(this.gameObject);
+        gameObject.SetActive(false);
+        Button.SetActive(true);
     }
 }

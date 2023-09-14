@@ -2,24 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-//using UnityEngine.UIElements;
 using UnityEngine.UI;
+using YG;
+using UnityEngine.SceneManagement;
 
 public class WaveSpawner : MonoBehaviour
 {
     [SerializeField] public Waves[] _waves;
     [SerializeField] private TMP_Text _textWaves;
     [SerializeField] private Button _button;
-    [SerializeField] private Canvas _canvas;
+    [SerializeField] private GameObject _canvas;
+    [SerializeField] GameObject Replay;
     private int _currentEnemyIndex;
     private int _currentWaveIndex;
     private int _enemiesLeftToSpawn;
+    private int _activeScene;
 
     private void Start()
     { 
         _enemiesLeftToSpawn = _waves[0].WaveSettings.Length;
         LaunchWave();
-
+        _activeScene = SceneManager.GetActiveScene().buildIndex;
     }
 
     private IEnumerator SpawnEnemyInWaves()
@@ -35,7 +38,7 @@ public class WaveSpawner : MonoBehaviour
             _currentEnemyIndex++;
 
             StartCoroutine(SpawnEnemyInWaves());
-            _textWaves.text = "Волна" + _currentWaveIndex.ToString();
+            _textWaves.text = "Волна " + _currentWaveIndex.ToString();
         }
         else
         {
@@ -48,21 +51,26 @@ public class WaveSpawner : MonoBehaviour
             }
             else
             {
-                Invoke("ActiveBtn", 20f);
+                if (_activeScene == 1)
+                    Invoke("ActiveBtn", 15f);
+                else
+                    Invoke("ReplayCanvas", 10f);
             }
         }
-    } 
+    }
     public void ActiveBtn()
     {
-
         _button.enabled = true;
-        _canvas.enabled = true;
+        _canvas.SetActive(true);
     }
 
     public void LaunchWave()
     {
         StartCoroutine(SpawnEnemyInWaves());
-        Progress.Instance.Save();
+    }
+    public void ReplayCanvas()
+    {
+        Replay.SetActive(true);
     }
 }
 

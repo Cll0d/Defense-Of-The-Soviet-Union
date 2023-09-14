@@ -137,7 +137,7 @@ Transform:
   - {fileID: 8801437623492723482}
   - {fileID: 4951587812381121565}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3389702117236573936
 MonoBehaviour:
@@ -321,10 +321,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rangeRay: 100
-  _damage: 10
-  _rotSpeed: 30
-  _speedAttack: 80
-  _reloadTime: 4
+  _damage: 12
+  _rotSpeed: 100
+  _speedAttack: 50
+  _reloadTime: 5
   _maxAmmo: 30
   _currentAmmo: 30
   _transform: {fileID: 7356041771575460245}

@@ -45,7 +45,6 @@ public class Explosion : MonoBehaviour
             Explode();
             Destroy(gameObject);
             Instantiate(ExplosionEffect, transform.position, Quaternion.identity);
-            Debug.Log("Хуйнуло");
         }
     }
 

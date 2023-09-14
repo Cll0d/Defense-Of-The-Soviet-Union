@@ -41,7 +41,6 @@ public class ProgectileBehaviour : MonoBehaviour
     void Reload()
     {
         _currentReload = _reload;
-        Debug.Log("Выстрел");
     }
     public void SearchNShot()
     {

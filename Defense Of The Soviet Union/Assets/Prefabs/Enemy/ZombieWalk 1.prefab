@@ -2204,7 +2204,7 @@ MonoBehaviour:
   _health: 150
   _armor: 1
   _damage: 80
-  _coinForKill: 100
+  _coinForKill: 75
   _coinManager: {fileID: 0}
 --- !u!136 &8022465298709051752
 CapsuleCollider:

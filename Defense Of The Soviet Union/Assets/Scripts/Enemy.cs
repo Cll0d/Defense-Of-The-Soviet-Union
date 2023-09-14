@@ -58,7 +58,7 @@ public class Enemy : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         HealthBase  healthBase = other.gameObject.GetComponent<HealthBase>();
-        if (healthBase)
+        if (healthBase != null)
         {
             _healthBase = healthBase;
             _isAttack = true;
