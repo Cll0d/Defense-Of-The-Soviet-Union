@@ -13,6 +13,9 @@ public class GunShotBehaviour : MonoBehaviour
     private bool _isReloading;
     [SerializeField] private Transform _transform;
     [SerializeField] private LayerMask _enemyMask;
+    [SerializeField] private GameObject _flash;
+    [SerializeField] private AudioClip _vistrel;
+    
     private Ray ray;
     private RaycastHit hit;
     private Enemy enemy;
@@ -23,6 +26,7 @@ public class GunShotBehaviour : MonoBehaviour
     }
     private void Update()
     {
+        _flash.SetActive(false);
         DrawRay();
         if( _isReloading )
         {
@@ -93,6 +97,8 @@ public class GunShotBehaviour : MonoBehaviour
                 if (enemy != null)
                 {
                     enemy.TakeDamage(_damage);
+                    _flash.SetActive(true);
+                    GetComponent<AudioSource>().PlayOneShot(_vistrel);
                 }
             }
         }
