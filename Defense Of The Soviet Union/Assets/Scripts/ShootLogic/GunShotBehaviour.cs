@@ -78,8 +78,8 @@ public class GunShotBehaviour : MonoBehaviour
     }
     private void DrawRay()
     {
-        ray = new Ray(_transform.position, -_transform.up);
-        Debug.DrawRay(_transform.position, -_transform.up * _rangeRay, Color.yellow);
+        ray = new Ray(_transform.position, _transform.forward);
+        Debug.DrawRay(_transform.position, _transform.forward * _rangeRay, Color.yellow);
 
     }
     private IEnumerator Shoot()

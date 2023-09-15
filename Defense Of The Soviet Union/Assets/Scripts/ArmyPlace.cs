@@ -3,9 +3,11 @@ using UnityEngine.EventSystems;
 
 public class ArmyPlace : MonoBehaviour, IDragHandler, IPointerDownHandler, IPointerUpHandler
 {
+
     private Vector2Int _gridSize = new Vector2Int(27, 60);
     private Card _cardSO;
     private CoinManager _coinManager;
+    private bool _isPlace = false;
     public Card CardSO
     {
         get => _cardSO;
@@ -36,14 +38,17 @@ public class ArmyPlace : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoin
                     int z = Mathf.RoundToInt(worldPosition.z);
                     if (x < 9 || x > (_gridSize.x - _buildings.Size.x) + 10)
                     {
+                        _buildings.Canvas.enabled = true;
                         _isBuild = false;
                     }
                     else if (z < -30 || z > (_gridSize.y - _buildings.Size.y) - 26)
                     {
+                        _buildings.Canvas.enabled = true;
                         _isBuild = false;
                     }
                     else
                     {
+                        _buildings.Canvas.enabled = false;
                         _isBuild = true;
                     }
                     _draggInBuilding.transform.position = new Vector3(x, 0, z);
@@ -58,20 +63,24 @@ public class ArmyPlace : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoin
             _draggInBuilding = Instantiate(_cardSO.Prefab);
 
             _buildings = _draggInBuilding.GetComponent<Buildings>();
-            _buildings.Canvas.enabled = false;
+            //_buildings.Canvas.enabled = false;
             _draggInBuilding.GetComponent<BoxCollider>().enabled = true;
         }
     }
     public void OnPointerUp(PointerEventData eventData)
     {
-        _buildings.Canvas.enabled = false;
         if (IsAbleToPlant)
         {
             if (!_isBuild || _buildings.IsTriiger == false)
             {
+                _buildings.Canvas.enabled = true;
                 Destroy(_draggInBuilding);
             }
-            _coinManager.SpendCoins(_cardSO.Ñost);
+            else
+            {
+                _buildings.Canvas.enabled = false;
+                _coinManager.SpendCoins(_cardSO.Ñost);
+            }
         }
     }
 }
