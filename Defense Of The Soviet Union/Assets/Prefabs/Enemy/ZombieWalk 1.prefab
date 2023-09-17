@@ -2207,7 +2207,14 @@ MonoBehaviour:
   _damage: 80
   _coinForKill: 75
   _coinManager: {fileID: 0}
+<<<<<<< Updated upstream
   _audioSource: {fileID: 897452968865678222}
+=======
+<<<<<<< HEAD
+=======
+  _audioSource: {fileID: 897452968865678222}
+>>>>>>> 24bf2a693cde8a8c482608ae2ce2e22fbddea287
+>>>>>>> Stashed changes
 --- !u!136 &8022465298709051752
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2269,7 +2276,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!1 &6396689450698371897
 GameObject:
   m_ObjectHideFlags: 0
@@ -2684,7 +2691,15 @@ Transform:
   - {fileID: 6649389129261475438}
   - {fileID: 2677044834009077233}
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream
   m_RootOrder: 0
+=======
+<<<<<<< HEAD
+  m_RootOrder: 3
+=======
+  m_RootOrder: 0
+>>>>>>> 24bf2a693cde8a8c482608ae2ce2e22fbddea287
+>>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5429074689111378572
 MonoBehaviour:
