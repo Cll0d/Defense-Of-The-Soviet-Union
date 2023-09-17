@@ -140,7 +140,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &14762174
 Transform:
@@ -244,7 +244,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &17902251
 Transform:
@@ -328,7 +328,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &18402978
 Transform:
@@ -412,7 +412,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &23623777
 Transform:
@@ -563,6 +563,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1262108828206352986, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -578567487305495661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -577,6 +582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6507809214493567661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
@@ -599,6 +609,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -702,6 +720,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -857,6 +883,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1262108828206352986, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -578567487305495661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -871,6 +902,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6507809214493567661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
@@ -899,7 +935,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!65 &74414177
 BoxCollider:
@@ -1004,7 +1040,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &79027008
 Transform:
@@ -1114,7 +1150,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &118624217
 Transform:
@@ -1198,7 +1234,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &121636552
 Transform:
@@ -1361,7 +1397,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &130029003
 Transform:
@@ -1461,6 +1497,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zabor2 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1556,7 +1600,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &139387081
 Transform:
@@ -1631,9 +1675,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1765,9 +1825,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1897,6 +1973,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zabor1 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2004,7 +2088,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &164888642
 Transform:
@@ -2088,7 +2172,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &187754818
 Transform:
@@ -2198,7 +2282,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &195054347
 Transform:
@@ -2281,7 +2365,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &195638553
 Transform:
@@ -2378,7 +2462,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!65 &200434086
 BoxCollider:
@@ -2477,6 +2561,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_Name
       value: Zabor2 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
@@ -2578,7 +2670,7 @@ GameObject:
   m_TagString: Doroga
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &227968981
 Transform:
@@ -2636,9 +2728,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2773,7 +2881,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &236981647
 Transform:
@@ -2873,6 +2981,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zabor2 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2969,7 +3085,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &241928323
 Transform:
@@ -3079,7 +3195,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &258589438
 Transform:
@@ -3164,7 +3280,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &271137446
 Transform:
@@ -3268,7 +3384,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &281420025
 Transform:
@@ -3352,7 +3468,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &297060502
 Transform:
@@ -3456,7 +3572,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &300987362
 Transform:
@@ -3540,7 +3656,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &304542770
 Transform:
@@ -3618,6 +3734,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -3733,7 +3857,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!65 &309831558
 BoxCollider:
@@ -3856,7 +3980,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &324521039
 Transform:
@@ -4094,9 +4218,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4231,7 +4371,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &358456268
 Transform:
@@ -4368,7 +4508,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &374317803
 Transform:
@@ -4452,7 +4592,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &375969758
 Transform:
@@ -4552,6 +4692,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sandbags (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013408446254, guid: 7889b3e42b29881408a396ea8303773f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012379405242, guid: 7889b3e42b29881408a396ea8303773f, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4640,7 +4784,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &402276000
 Transform:
@@ -4730,7 +4874,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &405468388
 Transform:
@@ -4952,7 +5096,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &428328050
 Transform:
@@ -5035,7 +5179,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &474196862
 Transform:
@@ -5120,7 +5264,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &479837010
 Transform:
@@ -5242,7 +5386,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &498007430
 Transform:
@@ -5327,7 +5471,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &505088345
 Transform:
@@ -5478,6 +5622,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1262108828206352986, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -578567487305495661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5492,6 +5641,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6507809214493567661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
@@ -5597,7 +5751,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &512019619
 Transform:
@@ -5728,6 +5882,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1262108828206352986, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -578567487305495661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5742,6 +5901,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6507809214493567661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
@@ -5770,7 +5934,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &520274086
 Transform:
@@ -5869,6 +6033,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -5977,7 +6149,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &538504601
 Transform:
@@ -6062,7 +6234,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &539188738
 Transform:
@@ -6172,7 +6344,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &544799671
 Transform:
@@ -6273,7 +6445,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &577846741
 Transform:
@@ -6357,7 +6529,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &578940748
 Transform:
@@ -6441,7 +6613,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &585072921
 Transform:
@@ -6522,7 +6694,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &596074414
 Transform:
@@ -6571,7 +6743,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &609347263
 Transform:
@@ -6666,6 +6838,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1262108828206352986, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -578567487305495661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6680,6 +6857,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6507809214493567661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
@@ -6707,7 +6889,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &620184842
 Transform:
@@ -6786,6 +6968,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -6890,6 +7080,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zabor1 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -6993,6 +7191,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zabor2 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -7089,7 +7295,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &635765589
 Transform:
@@ -7193,7 +7399,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &685048459
 Transform:
@@ -7369,7 +7575,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &701258264
 Transform:
@@ -7474,7 +7680,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &702674287
 Transform:
@@ -7570,9 +7776,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7701,7 +7923,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &707201766
 Transform:
@@ -7801,6 +8023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: desert_tent002
       objectReference: {fileID: 0}
+    - target: {fileID: 1583740400786812, guid: 13ba38a56e5ac194b8ff91a886d11881, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4864617245429566, guid: 13ba38a56e5ac194b8ff91a886d11881, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -7885,7 +8111,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &719704674
 Transform:
@@ -7981,9 +8207,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8118,7 +8360,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &745091039
 Transform:
@@ -8222,7 +8464,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &749747959
 Transform:
@@ -8306,7 +8548,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &752851309
 Transform:
@@ -8384,6 +8626,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -8493,7 +8743,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &754292336
 Transform:
@@ -8592,6 +8842,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -8700,7 +8958,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &773215225
 Transform:
@@ -8776,9 +9034,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8906,7 +9180,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &790970498
 Transform:
@@ -8991,7 +9265,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &804298177
 Transform:
@@ -9087,9 +9361,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9223,7 +9513,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &812736184
 Transform:
@@ -9307,7 +9597,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &817641437
 Transform:
@@ -9411,7 +9701,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &822205213
 Transform:
@@ -9487,9 +9777,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9624,7 +9930,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &826352151
 Transform:
@@ -9726,9 +10032,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9868,7 +10190,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &850180881
 Transform:
@@ -9953,7 +10275,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &867255948
 Transform:
@@ -10055,7 +10377,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &872829349
 Transform:
@@ -10107,7 +10429,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &883563221
 Transform:
@@ -10364,7 +10686,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &893800368
 Transform:
@@ -10442,6 +10764,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_Name
       value: Zabor2 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
@@ -10539,7 +10869,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &914509271
 Transform:
@@ -10638,6 +10968,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_Name
       value: Zabor2 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
@@ -10803,6 +11141,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zabor2 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -10898,7 +11244,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &934715082
 Transform:
@@ -10977,6 +11323,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_Name
       value: Zabor2 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
@@ -11079,7 +11433,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &944859406
 Transform:
@@ -11164,7 +11518,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!65 &956871211
 BoxCollider:
@@ -11268,7 +11622,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &964737687
 Transform:
@@ -11357,7 +11711,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &979403670
 Transform:
@@ -11448,7 +11802,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &989981272
 Transform:
@@ -11675,7 +12029,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1004426132
 Transform:
@@ -11759,7 +12113,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1006200940
 Transform:
@@ -11858,6 +12212,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -12056,7 +12418,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1035448223
 Transform:
@@ -12156,6 +12518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sandbags
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013408446254, guid: 7889b3e42b29881408a396ea8303773f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012379405242, guid: 7889b3e42b29881408a396ea8303773f, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -12245,6 +12611,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_Name
       value: Zabor2 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
@@ -12347,7 +12721,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1058810943
 Transform:
@@ -12432,7 +12806,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1076277492
 Transform:
@@ -12537,7 +12911,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1086127086
 Transform:
@@ -12639,7 +13013,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1086649634
 Transform:
@@ -12675,7 +13049,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1088884649
 Transform:
@@ -12785,7 +13159,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1110164263
 Transform:
@@ -12901,6 +13275,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zabor1 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -13003,6 +13385,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -13109,7 +13499,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1130174243
 Transform:
@@ -13151,7 +13541,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1133331479
 Transform:
@@ -13235,7 +13625,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1137892966
 Transform:
@@ -13320,7 +13710,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1138837498
 Transform:
@@ -13431,7 +13821,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1150642262
 Transform:
@@ -18369,7 +18759,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1182751456
 Transform:
@@ -18453,7 +18843,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1206075753
 Transform:
@@ -18538,7 +18928,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1215955988
 Transform:
@@ -18716,7 +19106,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1227095766
 Transform:
@@ -18826,7 +19216,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1242215483
 Transform:
@@ -18904,6 +19294,10 @@ PrefabInstance:
     - target: {fileID: 1000013408446254, guid: 7889b3e42b29881408a396ea8303773f, type: 3}
       propertyPath: m_Name
       value: Sandbags (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013408446254, guid: 7889b3e42b29881408a396ea8303773f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4000012379405242, guid: 7889b3e42b29881408a396ea8303773f, type: 3}
       propertyPath: m_RootOrder
@@ -19088,7 +19482,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1264647483
 Transform:
@@ -19172,7 +19566,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1265620111
 Transform:
@@ -19303,6 +19697,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1262108828206352986, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -578567487305495661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19317,6 +19716,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6507809214493567661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
@@ -19345,7 +19749,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1284711678
 Transform:
@@ -19462,7 +19866,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1297109879
 Transform:
@@ -19613,6 +20017,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1262108828206352986, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -578567487305495661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19627,6 +20036,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6507809214493567661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
@@ -19654,7 +20068,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1312213267
 Transform:
@@ -19745,7 +20159,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1320410828
 Transform:
@@ -19844,6 +20258,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -19952,7 +20374,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1328054111
 Transform:
@@ -20031,6 +20453,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -20145,7 +20575,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1356017884
 Transform:
@@ -20233,9 +20663,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20376,7 +20822,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1381221229
 Transform:
@@ -20492,7 +20938,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1395722663
 Transform:
@@ -20655,7 +21101,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1417160736
 Transform:
@@ -20740,6 +21186,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -20925,9 +21379,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21062,7 +21532,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1474108101
 Transform:
@@ -21166,7 +21636,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1480496093
 Transform:
@@ -21251,6 +21721,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_Name
       value: Zabor2 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
@@ -21348,7 +21826,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1521442151
 Transform:
@@ -21452,7 +21930,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1528544142
 Transform:
@@ -21536,7 +22014,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1581242756
 Transform:
@@ -21618,9 +22096,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21795,7 +22289,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1610728022
 Transform:
@@ -21894,6 +22388,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -22003,7 +22505,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1616737654
 Transform:
@@ -22105,7 +22607,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1622834815
 Transform:
@@ -22138,6 +22640,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_Name
       value: Zabor2 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
@@ -22235,7 +22745,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1652515535
 Transform:
@@ -22340,7 +22850,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1656342041
 Transform:
@@ -22445,7 +22955,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1663781725
 Transform:
@@ -22550,7 +23060,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1668452218
 Transform:
@@ -22655,7 +23165,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1668572146
 Transform:
@@ -22760,6 +23270,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -22880,7 +23398,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1677543088
 Transform:
@@ -22958,6 +23476,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -23072,7 +23598,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1700025541
 Transform:
@@ -23156,7 +23682,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1703073772
 Transform:
@@ -23232,9 +23758,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23375,7 +23917,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1708187950
 Transform:
@@ -23479,7 +24021,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1714433834
 Transform:
@@ -23554,9 +24096,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23686,6 +24244,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zabor2 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -23781,7 +24347,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1728651311
 Transform:
@@ -23911,6 +24477,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1262108828206352986, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -578567487305495661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23925,6 +24496,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6507809214493567661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
@@ -23947,6 +24523,10 @@ PrefabInstance:
     - target: {fileID: 1000013408446254, guid: 7889b3e42b29881408a396ea8303773f, type: 3}
       propertyPath: m_Name
       value: Sandbags (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013408446254, guid: 7889b3e42b29881408a396ea8303773f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4000012379405242, guid: 7889b3e42b29881408a396ea8303773f, type: 3}
       propertyPath: m_RootOrder
@@ -24054,7 +24634,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1750424993
 Transform:
@@ -24231,6 +24811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sandbags (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013408446254, guid: 7889b3e42b29881408a396ea8303773f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012379405242, guid: 7889b3e42b29881408a396ea8303773f, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -24319,7 +24903,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1778610519
 Transform:
@@ -24404,7 +24988,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1779740235
 Transform:
@@ -24556,7 +25140,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1780212234
 Transform:
@@ -24586,6 +25170,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -24695,7 +25287,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1784864032
 Transform:
@@ -24795,6 +25387,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zabor2 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -24891,7 +25491,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!65 &1815234272
 BoxCollider:
@@ -24996,7 +25596,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1818104812
 Transform:
@@ -25147,6 +25747,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1262108828206352986, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -578567487305495661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25182,6 +25787,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6507809214493567661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -25208,7 +25818,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1840941163
 Transform:
@@ -25292,7 +25902,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1843374280
 Transform:
@@ -25371,6 +25981,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -25479,7 +26097,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1863598923
 Transform:
@@ -25563,7 +26181,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1864632510
 Transform:
@@ -25645,7 +26263,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1867522335
 Transform:
@@ -25700,6 +26318,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_Name
       value: Zabor2 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
@@ -25794,7 +26420,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1875048003
 Transform:
@@ -25887,7 +26513,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1881614626
 Transform:
@@ -25971,7 +26597,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1887443076
 Transform:
@@ -26209,7 +26835,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1915747194
 Transform:
@@ -26288,6 +26914,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_Name
       value: Zabor2 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
@@ -26384,7 +27018,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1922904082
 Transform:
@@ -26469,6 +27103,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_Name
       value: Zabor2 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
@@ -26565,7 +27207,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1945202312
 Transform:
@@ -26649,7 +27291,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1950962073
 Transform:
@@ -26728,6 +27370,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_Name
       value: Zabor2 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
@@ -26825,7 +27475,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!65 &1956189215
 BoxCollider:
@@ -26921,9 +27571,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27055,7 +27721,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1963307905
 Transform:
@@ -27114,6 +27780,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_Name
       value: Zabor1 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
@@ -27222,7 +27896,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1979748302
 Transform:
@@ -27312,7 +27986,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1992360654
 Transform:
@@ -27397,6 +28071,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_Name
       value: Zabor2 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
@@ -27540,6 +28222,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1262108828206352986, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -578567487305495661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27554,6 +28241,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6507809214493567661, guid: 3aeaef92f9cc4f044a70cb26ca912b65,
         type: 3}
@@ -27587,7 +28279,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &2034323848
 Transform:
@@ -27671,7 +28363,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &2039675881
 Transform:
@@ -27755,7 +28447,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &2044098418
 Transform:
@@ -27834,6 +28526,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_Name
       value: Zabor2 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
@@ -27930,7 +28630,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &2052154054
 Transform:
@@ -28006,9 +28706,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28148,7 +28864,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &2072771426
 Transform:
@@ -28233,7 +28949,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &2087705010
 Transform:
@@ -28344,7 +29060,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &2124608546
 Transform:
@@ -28444,6 +29160,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zabor2 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ecb02d68d9c6694db60b6afc7b243b9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -28537,7 +29261,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &2127269439
 Transform:
@@ -28592,7 +29316,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &2128896509
 Transform:
@@ -28688,9 +29412,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 596074414}
     m_Modifications:
+    - target: {fileID: 100000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_Name
       value: Brevna (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd468650f3709c747959c7bf05b225ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28820,6 +29560,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zabor1 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a7af9488be7d5754aab817cebce8f9b2, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -28927,7 +29675,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &2137319608
 Transform:
@@ -29011,7 +29759,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &2143147519
 Transform:

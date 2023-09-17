@@ -7,7 +7,6 @@ public class ArmyPlace : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoin
     private Vector2Int _gridSize = new Vector2Int(27, 60);
     private Card _cardSO;
     private CoinManager _coinManager;
-    private bool _isPlace = false;
     public Card CardSO
     {
         get => _cardSO;
@@ -63,7 +62,6 @@ public class ArmyPlace : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoin
             _draggInBuilding = Instantiate(_cardSO.Prefab);
 
             _buildings = _draggInBuilding.GetComponent<Buildings>();
-            //_buildings.Canvas.enabled = false;
             _draggInBuilding.GetComponent<BoxCollider>().enabled = true;
         }
     }
