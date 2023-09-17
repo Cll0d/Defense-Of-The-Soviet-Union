@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float _damage;
     [SerializeField] private int _coinForKill;
     [SerializeField] private CoinManager _coinManager;
+    
     private Animator _animator;
     private HealthBase _healthBase;
     private bool _isAttack = false;

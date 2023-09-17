@@ -2207,6 +2207,7 @@ MonoBehaviour:
   _damage: 80
   _coinForKill: 75
   _coinManager: {fileID: 0}
+  _roar: {fileID: 0}
 --- !u!136 &8022465298709051752
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2682,7 +2683,7 @@ Transform:
   m_Children:
   - {fileID: 6649389129261475438}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5429074689111378572
 MonoBehaviour:

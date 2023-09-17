@@ -14,7 +14,6 @@ public class GunShotBehaviour : MonoBehaviour
     [SerializeField] private Transform _transform;
     [SerializeField] private LayerMask _enemyMask;
     [SerializeField] private GameObject _flash;
-    [SerializeField] private AudioClip _vistrel;
     
     private Ray ray;
     private RaycastHit hit;
@@ -84,7 +83,6 @@ public class GunShotBehaviour : MonoBehaviour
     {
         ray = new Ray(_transform.position, _transform.forward);
         Debug.DrawRay(_transform.position, _transform.forward * _rangeRay, Color.yellow);
-
     }
     private IEnumerator Shoot()
     {
@@ -98,7 +96,6 @@ public class GunShotBehaviour : MonoBehaviour
                 {
                     enemy.TakeDamage(_damage);
                     _flash.SetActive(true);
-                    GetComponent<AudioSource>().PlayOneShot(_vistrel);
                 }
             }
         }
