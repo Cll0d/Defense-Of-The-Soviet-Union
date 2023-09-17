@@ -8,6 +8,7 @@ public class ProgectileBehaviour : MonoBehaviour
     [SerializeField] private float _reload;
     [SerializeField] private float _currentReload;
     [SerializeField] private float _weaponRange;
+    [SerializeField] private AudioSource _audioSource;
     public Transform SpawnTransform; //Откуда вылетают снаряды
     public GameObject Bullet; //Снаряд
 
@@ -73,6 +74,7 @@ public class ProgectileBehaviour : MonoBehaviour
             float v = Mathf.Sqrt(Mathf.Abs(v2));
 
             GameObject newBullet = Instantiate(Bullet, SpawnTransform.position, Quaternion.identity);
+            _audioSource.Play();
             newBullet.GetComponent<Rigidbody>().velocity = SpawnTransform.forward * v;
 
         }

@@ -14,6 +14,8 @@ public class SoldeirGunBehaviour : MonoBehaviour
     [SerializeField] private Transform _transform;
     [SerializeField] private LayerMask _enemyMask;
     [SerializeField] private GameObject _flash;
+    [SerializeField] private Animator _animator;
+    [SerializeField] private AudioSource _audioSource;
     private Ray ray;
     private RaycastHit hit;
     private Enemy enemy;
@@ -24,7 +26,6 @@ public class SoldeirGunBehaviour : MonoBehaviour
     }
     private void Update()
     {
-        _flash.SetActive(false);
         DrawRay();
         if (_isReloading)
         {
@@ -44,7 +45,9 @@ public class SoldeirGunBehaviour : MonoBehaviour
         _isReloading = true;
         yield return new WaitForSeconds(_reloadTime);
         _currentAmmo = _maxAmmo;
+        _animator.SetBool("Shooting", false);
         _isReloading = false;
+        _flash.SetActive(false);
     }
 
     private void SearchTarget()
@@ -64,6 +67,7 @@ public class SoldeirGunBehaviour : MonoBehaviour
         }
         if (nearestEnemy != null)
         {
+            _audioSource.Play();
             Aiming(nearestEnemy);
             StartCoroutine(Shoot());
         }
@@ -86,18 +90,17 @@ public class SoldeirGunBehaviour : MonoBehaviour
     }
     private IEnumerator Shoot()
     {
+        _flash.SetActive(true);
         _currentAmmo--;
         if (Physics.Raycast(ray, out hit))
         {
-            Debug.Log("Raytarget");
             if (_enemyMask == (_enemyMask | (1 << hit.collider.gameObject.layer)))
             {
-                Debug.Log("enemymask");
                 enemy = hit.collider.gameObject.GetComponent<Enemy>();
                 if (enemy != null)
                 {
                     enemy.TakeDamage(_damage);
-                    _flash.SetActive(true);
+                    _animator.SetBool("Shooting", true);
                 }
             }
         }

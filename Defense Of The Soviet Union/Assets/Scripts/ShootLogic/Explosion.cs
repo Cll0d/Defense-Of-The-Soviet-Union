@@ -6,7 +6,7 @@ using System;
 public class Explosion : MonoBehaviour
 {
     [SerializeField] float _damage;
-
+    [SerializeField] private AudioSource _source;
     public float Radius;
     public float Force;
 
@@ -42,6 +42,7 @@ public class Explosion : MonoBehaviour
     {
         if (collision.gameObject.tag == "Doroga")
         {
+            _source.Play();
             Explode();
             Destroy(gameObject);
             Instantiate(ExplosionEffect, transform.position, Quaternion.identity);

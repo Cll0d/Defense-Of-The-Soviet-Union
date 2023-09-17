@@ -14,7 +14,11 @@ public class GunShotBehaviour : MonoBehaviour
     [SerializeField] private Transform _transform;
     [SerializeField] private LayerMask _enemyMask;
     [SerializeField] private GameObject _flash;
-    
+    [SerializeField] private Animator _animator;
+    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private AudioClip _clip;
+
+
     private Ray ray;
     private RaycastHit hit;
     private Enemy enemy;
@@ -25,7 +29,6 @@ public class GunShotBehaviour : MonoBehaviour
     }
     private void Update()
     {
-        _flash.SetActive(false);
         DrawRay();
         if( _isReloading )
         {
@@ -46,10 +49,14 @@ public class GunShotBehaviour : MonoBehaviour
         yield return new WaitForSeconds( _reloadTime );
         _currentAmmo = _maxAmmo;
         _isReloading = false;
+        _animator.SetBool("Shooting", false);
+        _flash.SetActive(false);
     }
 
     private void SearchTarget()
     {
+        _flash.SetActive(false);
+        _animator.SetBool("Shooting", false);
         Transform nearestEnemy = null;
         float nearestEnemyDistance = Mathf.Infinity;
 
@@ -71,6 +78,8 @@ public class GunShotBehaviour : MonoBehaviour
     }
     private void Aiming(Transform target)
     {
+        _flash.SetActive(false);
+        _animator.SetBool("Shooting", false);
         Vector3 directionToTarget = target.position - _transform.position;
         directionToTarget.y = 0f;
         float currentRotationX = _transform.rotation.eulerAngles.x;
@@ -86,16 +95,19 @@ public class GunShotBehaviour : MonoBehaviour
     }
     private IEnumerator Shoot()
     {
+        _flash.SetActive(true);
         _currentAmmo--;
         if (Physics.Raycast(ray, out hit))
         {
             if (_enemyMask == (_enemyMask | (1 << hit.collider.gameObject.layer)))
             {
+                _animator.SetBool("Shooting", false);
                 enemy = hit.collider.gameObject.GetComponent<Enemy>();
                 if (enemy != null)
                 {
+                    _audioSource.PlayDelayed(0.5f);
+                    _animator.SetBool("Shooting", true);
                     enemy.TakeDamage(_damage);
-                    _flash.SetActive(true);
                 }
             }
         }

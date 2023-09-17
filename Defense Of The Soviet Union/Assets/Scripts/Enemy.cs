@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float _damage;
     [SerializeField] private int _coinForKill;
     [SerializeField] private CoinManager _coinManager;
+    [SerializeField] private AudioSource _audioSource;
     
     private Animator _animator;
     private HealthBase _healthBase;
@@ -37,6 +38,7 @@ public class Enemy : MonoBehaviour
         if(_health < 1)
         {
             _animator.SetBool(name: "Die", value: true);
+            _audioSource.Play();
             Invoke("Die", 2.0f);
         }
     }
