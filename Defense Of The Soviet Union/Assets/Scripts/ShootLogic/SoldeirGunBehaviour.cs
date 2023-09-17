@@ -13,6 +13,7 @@ public class SoldeirGunBehaviour : MonoBehaviour
     private bool _isReloading;
     [SerializeField] private Transform _transform;
     [SerializeField] private LayerMask _enemyMask;
+    [SerializeField] private GameObject _flash;
     private Ray ray;
     private RaycastHit hit;
     private Enemy enemy;
@@ -23,6 +24,7 @@ public class SoldeirGunBehaviour : MonoBehaviour
     }
     private void Update()
     {
+        _flash.SetActive(false);
         DrawRay();
         if (_isReloading)
         {
@@ -94,8 +96,8 @@ public class SoldeirGunBehaviour : MonoBehaviour
                 enemy = hit.collider.gameObject.GetComponent<Enemy>();
                 if (enemy != null)
                 {
-                    Debug.Log("takedamage");
                     enemy.TakeDamage(_damage);
+                    _flash.SetActive(true);
                 }
             }
         }
