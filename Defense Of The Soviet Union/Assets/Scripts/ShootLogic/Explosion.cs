@@ -12,11 +12,6 @@ public class Explosion : MonoBehaviour
 
     public GameObject ExplosionEffect;
 
-    void Update()
-    {
-
-    }
-
     private void Explode()
     {
         Collider[] overlappedColliders = Physics.OverlapSphere(transform.position, Radius);// Все коллайдеры которые попали в сферу помещаются в массив
@@ -29,10 +24,11 @@ public class Explosion : MonoBehaviour
             {
                 rigidbody.AddExplosionForce(Force, transform.position, Radius);
             }
-
+            
             Enemy enemy = overlappedColliders[i].GetComponent<Enemy>();
             if (enemy != null)
             {
+                _source.Play();
                 enemy.TakeDamage(_damage);
             }
         }

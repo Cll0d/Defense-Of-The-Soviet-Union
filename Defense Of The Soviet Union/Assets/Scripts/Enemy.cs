@@ -31,6 +31,7 @@ public class Enemy : MonoBehaviour
         {
             _animator.SetBool(name: "Die", value: true);
             _audioSource.Play();
+            Destroy(gameObject.GetComponent<Collider>());
             Invoke("Die", 2.0f);
         }
     }
@@ -38,7 +39,6 @@ public class Enemy : MonoBehaviour
     {
         Destroy(gameObject);
         _coinManager.PayKill(_coinForKill);
-        Destroy(transform.parent.gameObject);
     }
     private IEnumerator Attack()
     {

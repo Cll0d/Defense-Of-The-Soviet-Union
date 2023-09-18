@@ -35,7 +35,7 @@ Transform:
   - {fileID: 5933998021981215514}
   - {fileID: 5342420549846940109}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7637340609547912761
 MonoBehaviour:
@@ -78,7 +78,6 @@ MonoBehaviour:
   _flash: {fileID: 6841014020940835669}
   _animator: {fileID: 5359182235411159148}
   _audioSource: {fileID: 7418043962600758736}
-  _clip: {fileID: 8300000, guid: 388af38e97f475c47ba2c02a6234cc50, type: 3}
 --- !u!65 &5666515266031972112
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -267,7 +266,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2508644557703687882}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.535, z: 0.681}
+  m_LocalPosition: {x: -0, y: 0.598, z: 0.681}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -328,7 +327,7 @@ Transform:
   m_GameObject: {fileID: 3296742036110422899}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 3.32, y: 0.45, z: 2.88}
-  m_LocalScale: {x: 3.5, y: 4.6, z: 4.4}
+  m_LocalScale: {x: 3.6, y: 4.7, z: 4.4}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7750781547789927678}

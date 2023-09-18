@@ -16,7 +16,6 @@ public class GunShotBehaviour : MonoBehaviour
     [SerializeField] private GameObject _flash;
     [SerializeField] private Animator _animator;
     [SerializeField] private AudioSource _audioSource;
-    [SerializeField] private AudioClip _clip;
 
 
     private Ray ray;
@@ -45,17 +44,16 @@ public class GunShotBehaviour : MonoBehaviour
     }
     private IEnumerator Reload()
     {
+        _flash.SetActive(false);
         _isReloading = true;
         yield return new WaitForSeconds( _reloadTime );
         _currentAmmo = _maxAmmo;
         _isReloading = false;
         _animator.SetBool("Shooting", false);
-        _flash.SetActive(false);
     }
 
     private void SearchTarget()
     {
-        _flash.SetActive(false);
         _animator.SetBool("Shooting", false);
         Transform nearestEnemy = null;
         float nearestEnemyDistance = Mathf.Infinity;
@@ -78,7 +76,6 @@ public class GunShotBehaviour : MonoBehaviour
     }
     private void Aiming(Transform target)
     {
-        _flash.SetActive(false);
         _animator.SetBool("Shooting", false);
         Vector3 directionToTarget = target.position - _transform.position;
         directionToTarget.y = 0f;
@@ -108,6 +105,11 @@ public class GunShotBehaviour : MonoBehaviour
                     _audioSource.PlayDelayed(0.5f);
                     _animator.SetBool("Shooting", true);
                     enemy.TakeDamage(_damage);
+                    if(enemy == null)
+                    {
+                        _animator.SetBool("Shooting", false);
+                        _audioSource.Stop();
+                    }
                 }
             }
         }
