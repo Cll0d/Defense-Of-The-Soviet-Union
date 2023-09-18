@@ -48,6 +48,7 @@ public class SoldeirGunBehaviour : MonoBehaviour
         _animator.SetBool("Shooting", false);
         _isReloading = false;
         _flash.SetActive(false);
+        _audioSource.Stop();
     }
 
     private void SearchTarget()
@@ -67,7 +68,6 @@ public class SoldeirGunBehaviour : MonoBehaviour
         }
         if (nearestEnemy != null)
         {
-            _audioSource.Play();
             Aiming(nearestEnemy);
             StartCoroutine(Shoot());
         }
@@ -101,6 +101,12 @@ public class SoldeirGunBehaviour : MonoBehaviour
                 {
                     enemy.TakeDamage(_damage);
                     _animator.SetBool("Shooting", true);
+                    _audioSource.Play();
+                   if(enemy == null)
+                    {
+                        _audioSource.Stop();
+                        _animator.SetBool("Shooting", false);
+                    }
                 }
             }
         }

@@ -16,7 +16,7 @@ public class TestWaves : MonoBehaviour
     {
         int enemiseLeft = 0;
         enemiseLeft = GameObject.FindGameObjectsWithTag("Enemy").Length;
-        if (enemiseLeft == 0)
+        if (enemiseLeft == 0 && _waveSpawner != null)
         {
             _waveSpawner.LaunchWave();
         }

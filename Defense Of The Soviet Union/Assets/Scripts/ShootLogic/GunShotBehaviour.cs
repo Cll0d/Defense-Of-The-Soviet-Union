@@ -54,7 +54,6 @@ public class GunShotBehaviour : MonoBehaviour
 
     private void SearchTarget()
     {
-        _animator.SetBool("Shooting", false);
         Transform nearestEnemy = null;
         float nearestEnemyDistance = Mathf.Infinity;
 
@@ -76,7 +75,6 @@ public class GunShotBehaviour : MonoBehaviour
     }
     private void Aiming(Transform target)
     {
-        _animator.SetBool("Shooting", false);
         Vector3 directionToTarget = target.position - _transform.position;
         directionToTarget.y = 0f;
         float currentRotationX = _transform.rotation.eulerAngles.x;

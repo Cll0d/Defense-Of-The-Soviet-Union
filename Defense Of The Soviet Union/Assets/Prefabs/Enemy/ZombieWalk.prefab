@@ -1543,6 +1543,7 @@ GameObject:
   - component: {fileID: 186443365018046881}
   - component: {fileID: 6142709606649788806}
   - component: {fileID: 188656013769308855}
+  - component: {fileID: 7231059558663574277}
   m_Layer: 6
   m_Name: ZombieWalk
   m_TagString: Enemy
@@ -1617,7 +1618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _health: 100
   _armor: 1
-  _damage: 1000
+  _damage: 100
   _coinForKill: 100
   _coinManager: {fileID: 0}
   _audioSource: {fileID: 7951431489093911220}
@@ -1671,6 +1672,18 @@ CapsuleCollider:
   m_Height: 1.7594411
   m_Direction: 1
   m_Center: {x: -0.010632626, y: 0.92288095, z: 0.021301877}
+--- !u!114 &7231059558663574277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4165164975656836684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e9495f95cd169458a687976437d202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4367133473086845374
 GameObject:
   m_ObjectHideFlags: 0
