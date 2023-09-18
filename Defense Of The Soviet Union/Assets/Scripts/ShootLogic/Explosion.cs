@@ -28,7 +28,6 @@ public class Explosion : MonoBehaviour
             Enemy enemy = overlappedColliders[i].GetComponent<Enemy>();
             if (enemy != null)
             {
-                _source.Play();
                 enemy.TakeDamage(_damage);
             }
         }
@@ -38,10 +37,10 @@ public class Explosion : MonoBehaviour
     {
         if (collision.gameObject.tag == "Doroga")
         {
-            _source.Play();
             Explode();
             Destroy(gameObject);
             Instantiate(ExplosionEffect, transform.position, Quaternion.identity);
+            Instantiate(_source, transform.position, Quaternion.identity).Play();
         }
     }
 
