@@ -12,9 +12,10 @@ public class SavesData : MonoBehaviour
     
     [SerializeField] TextMeshProUGUI Text;
     [SerializeField] InputField integerText;
-    [SerializeField] InputField stringifyText;
+    //[SerializeField] InputField stringifyText;
     [SerializeField] Text systemSavesText;
     [SerializeField] Toggle[] booleanArrayToggle;
+    [SerializeField] InputField stringlText;
 
     private void OnEnable() => YandexGame.GetDataEvent += GetLoad;
     private void OnDisable() => YandexGame.GetDataEvent -= GetLoad;
@@ -28,10 +29,12 @@ public class SavesData : MonoBehaviour
     public void Save()
     {
         YandexGame.savesData.money = CoinManager.Instance.Coins;
-        YandexGame.savesData.money = int.Parse(integerText.text); 
+        YandexGame.savesData.money = int.Parse(integerText.text);
 
         YandexGame.SaveProgress();
-        YandexGame.savesData.level = level;
+        YandexGame.savesData.level = Progress.Instance.PlayerInfo.Level;
+
+        YandexGame.savesData.level = int.Parse(stringlText.text);
 
         Text.text = YandexGame.savesData.money.ToString();
     }
@@ -40,9 +43,12 @@ public class SavesData : MonoBehaviour
     {
         integerText.text = string.Empty;
         
-        stringifyText.text = string.Empty;
+        //stringifyText.text = string.Empty;
 
         integerText.placeholder.GetComponent<Text>().text = YandexGame.savesData.money.ToString();
+        stringlText.placeholder.GetComponent<Text>().text = YandexGame.savesData.level.ToString();
+
+        
 
         systemSavesText.text = $"Language - {YandexGame.savesData.language}\n" +
         $"First Session - {YandexGame.savesData.isFirstSession}\n" +

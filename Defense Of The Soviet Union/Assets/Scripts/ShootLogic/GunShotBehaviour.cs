@@ -103,11 +103,6 @@ public class GunShotBehaviour : MonoBehaviour
                     _audioSource.PlayDelayed(0.5f);
                     _animator.SetBool("Shooting", true);
                     enemy.TakeDamage(_damage);
-                    if(enemy == null)
-                    {
-                        _animator.SetBool("Shooting", false);
-                        _audioSource.Stop();
-                    }
                 }
             }
         }

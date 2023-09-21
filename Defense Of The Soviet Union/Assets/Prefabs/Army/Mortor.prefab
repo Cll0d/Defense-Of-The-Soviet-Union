@@ -37,7 +37,7 @@ Transform:
   - {fileID: 6182081656049141580}
   - {fileID: 1723823420070064320}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4954645335071065552
 MonoBehaviour:
@@ -402,7 +402,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _reload: 3
   _currentReload: 3
-  _weaponRange: 150
+  _weaponRange: 155
   _audioSource: {fileID: 7551745441329607076}
   SpawnTransform: {fileID: 7246229456613040943}
   Bullet: {fileID: 5897781070935918896, guid: ae814578e44cd1c48b8db472556e5718, type: 3}

@@ -102,11 +102,6 @@ public class SoldeirGunBehaviour : MonoBehaviour
                     enemy.TakeDamage(_damage);
                     _animator.SetBool("Shooting", true);
                     _audioSource.Play();
-                   if(enemy == null)
-                    {
-                        _audioSource.Stop();
-                        _animator.SetBool("Shooting", false);
-                    }
                 }
             }
         }

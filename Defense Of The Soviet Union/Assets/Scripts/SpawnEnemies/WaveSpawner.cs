@@ -43,14 +43,12 @@ public class WaveSpawner : MonoBehaviour
         {
             if (_currentWaveIndex < _waves.Length - 1)
             {
-                Debug.Log("next volna");
                 _currentWaveIndex++;
                 _enemiesLeftToSpawn = _waves[_currentWaveIndex].WaveSettings.Length;
                 _currentEnemyIndex = 0;
             }
             else
             {
-                Debug.Log("net volna");
                 if (_activeScene == 1)
                     Invoke("ActiveBtn", 15f);
                 else

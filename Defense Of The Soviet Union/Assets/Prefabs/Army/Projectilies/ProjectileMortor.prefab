@@ -4947,7 +4947,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5897781070935918896}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -4981,7 +4981,7 @@ MonoBehaviour:
   _damage: 300
   _source: {fileID: 4028712188882027035, guid: f66c49b81a6635a448974eff98d9d878, type: 3}
   Radius: 20
-  Force: 1000
+  Force: 500
   ExplosionEffect: {fileID: 4804170306448543671, guid: 8f75c89cdc1e7bc4a9de71bc4cfdc30e,
     type: 3}
 --- !u!1001 &5665829168149143518
